@@ -1110,6 +1110,7 @@ function App() {
             {f:"Financing",you:"✅ Cherry",c1:"✅ Payment plans",c2:"⚠️ Not prominent",c3:"✅ Standard"},
             {f:"Mobile Services",you:"✅ IV + Massage + Injectables",c1:"❌ No mobile",c2:"❌ No mobile",c3:"❌ No mobile"},
             {f:"GLP-1 Weight Loss",you:"✅ Sema + Tirz + Phentermine",c1:"✅ Weight loss programs",c2:"✅ Sema + Tirz",c3:"❌ No weight loss"},
+            {f:"Peptide Therapy",you:"✅ BPC-157, GHK-Cu, CJC-1295 ($225/mo)",c1:"❌ Not offered",c2:"⚠️ Limited (BPC-157 only)",c3:"❌ Not offered"},
             {f:"Google Reviews",you:"234 (4.9★)",c1:"1,000+ (4.8★)",c2:"Growing (4.9★)",c3:"200+ (4.7★)"},
             {f:"Locations",you:"3",c1:"4 (expanding)",c2:"1",c3:"2"},
             {f:"Hours/Week",you:"40 hrs (Tue-Sat)",c1:"50+ hrs (Mon-Sat)",c2:"40 hrs (Tue-Sat)",c3:"52 hrs (Mon-Sat)"},
@@ -1140,6 +1141,8 @@ function App() {
               lines:["85% of medspas now offer memberships","Well-structured programs generate 20-30% of total revenue","Members visit 2x more and spend 35% more per visit","100 members × $129/mo = $12,900 recurring revenue"]},
             {title:"Daypart Gap",size:"$4-7K/mo",priority:"MEDIUM",c:C.ab,bg:C.ad,
               lines:["Thursday visits: 700 vs 2,500+ on other days","FM captures the 2-5pm after-work crowd","Thursday promos could fill 15 empty slots/week","15 slots × $297 avg ticket × 4 weeks = $17,800/mo"]},
+            {title:"Peptide Therapy Gap",size:"$8-15K/mo",priority:"HIGH",c:C.pb,bg:C.pd,
+              lines:["Peptide therapeutics market: $141B in 2025, projected $295B by 2033 (8.7% CAGR)","You already offer peptides at $225/mo — but no dedicated marketing or SEO content","Patient demand surging: Google searches for peptide therapy up 340% since 2023","At $225/mo recurring, 40-65 peptide patients = $9-14.6K/mo in recurring revenue"]},
           ].map((x,i) => (
             <div key={i} style={{padding:"18px",borderRadius:13,background:C.sf,border:`1px solid ${C.bd}`}}>
               <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:10}}>
@@ -1305,6 +1308,9 @@ function App() {
     {kw:"iv therapy miami",vol:1900,cpc:"$9.80",c1:null,c2:5,c3:null,you:28,difficulty:"Medium",opp:"⚡ Medium",
       why:"You rank #28 — just off page 3. With targeted optimization you could break into page 1. Facial Mania owns position 5. IV therapy is a gateway service that converts to higher-ticket treatments.",
       content:"Expand your IV therapy page with cocktail menu, pricing, benefits by condition, and booking. Blog: 'Best IV Therapy in Miami: What's in the Bag', 'IV Therapy vs Oral Supplements'. Add structured data for rich results."},
+    {kw:"peptide therapy miami",vol:1800,cpc:"$16.90",c1:null,c2:null,c3:null,you:null,difficulty:"Medium",opp:"🔥 High",
+      why:"Peptide therapy searches are up 340% since 2023 — this is the next GLP-1 wave. The $141B peptide therapeutics market is growing at 8.7% CAGR. You already offer peptides at $225/mo but have zero content targeting this keyword. None of your competitors rank for peptide-related terms in Miami — this is wide open territory.",
+      content:"Create a comprehensive 'Peptide Therapy in Miami' hub page covering: what peptides are, which ones you offer (BPC-157, GHK-Cu, CJC-1295, PT-141), pricing ($225/mo), benefits by condition (anti-aging, recovery, sexual wellness, fat loss), FDA status/safety, and FAQ. Support with blog posts: 'What Is Peptide Therapy? A Miami Doctor Explains', 'Peptides vs. GLP-1s for Weight Loss', 'Best Peptides for Anti-Aging in 2026'. Target featured snippet with structured Q&A."},
   ];
 
   return (
@@ -1417,6 +1423,8 @@ function App() {
               {kw:"mesotherapy miami",vol:"480",cpc:"$12.10",you:null,c1:4,c2:null,c3:null},
               {kw:"medspa kendall",vol:"390",cpc:"$9.80",you:null,c1:null,c2:4,c3:null},
               {kw:"mobile medspa miami",vol:"320",cpc:"$8.50",you:4,c1:null,c2:null,c3:null},
+              {kw:"peptide therapy miami",vol:"1.8K",cpc:"$16.90",you:null,c1:null,c2:null,c3:null},
+              {kw:"bpc-157 miami",vol:"720",cpc:"$14.20",you:null,c1:null,c2:null,c3:null},
               {kw:"medspa bird road",vol:"210",cpc:"$7.90",you:null,c1:null,c2:null,c3:3},
             ].map((r,i) => (
               <React.Fragment key={i}>
@@ -1572,6 +1580,7 @@ function App() {
             {week:"Week 4-6",action:"Publish 4 comparison/cost blog posts",impact:"Capture research-phase queries competitors own",kw:"'botox cost miami', 'botox vs dysport', 'semaglutide cost'",effort:"Medium"},
             {week:"Week 6-8",action:"Move before/after photos from IG to website gallery",impact:"Boost conversion rate 15-25% + image search traffic",kw:"before and after botox, lip filler results miami",effort:"Easy"},
             {week:"Week 8-12",action:"Google Business Profile optimization + review campaign",impact:"Improve local pack rankings for 'medspa near me'",kw:"medspa near me, best medspa miami, medspa 33155",effort:"Easy"},
+            {week:"Week 5-8",action:"Build peptide therapy hub page + 3 supporting blog posts",impact:"Own the emerging peptide therapy keyword cluster",kw:"peptide therapy miami (1.8K), bpc-157 miami (720), peptides for anti-aging",effort:"Medium"},
           ].map((x,i) => (
             <div key={i} style={{display:"flex",alignItems:"center",gap:12,padding:"12px 16px",borderRadius:10,background:C.sf,border:`1px solid ${C.bd}`}}>
               <div style={{width:28,height:28,borderRadius:8,background:"linear-gradient(135deg,#38BDF8,#34D399)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:12,fontWeight:800,color:"#fff",flexShrink:0}}>{i+1}</div>
@@ -2346,6 +2355,7 @@ function App() {
             {item:"Broken Instagram Feed on Homepage",status:"gap",bench:"Instagram drives 30% of medspa discovery",insight:"Your homepage displays an Instagram error: \"There has been a problem with your Instagram Feed.\" Since Instagram is the #1 social discovery channel for medspas (especially for your Millennial-heavy audience at 142 index), a broken feed signals neglect to potential patients. This is a quick fix that should be immediate priority.",icon:"📱",c:C.rb,bg:C.rd},
             {item:"No HSA/FSA Mention Anywhere",status:"gap",bench:"42.7% of your audience is employer-insured",insight:"Your site doesn't mention HSA/FSA acceptance anywhere — not on the payment plans page, not on service pages, nowhere. The average HSA holder has $3,900 in unused funds. A simple \"We Accept HSA/FSA\" badge on every page plus a Q4 campaign could drive $8-15K in seasonal revenue. This is found money from existing patients who don't know they can use these funds.",icon:"🏥",c:C.rb,bg:C.rd},
             {item:"3.75% Credit Card Surcharge",status:"risk",bench:"Most medspas absorb CC fees or use flat pricing",insight:"Your menu states \"3.75% noncash adjustment\" for credit card purchases. While legal in Florida, this creates friction for patients spending $500+ on treatments. Industry best practice is to build card processing into pricing. At $84.5K avg HHI, your patients expect seamless payment. Consider absorbing the fee and adjusting base prices up 2-3% instead.",icon:"💲",c:C.amb,bg:C.amd},
+            {item:"Peptide Therapy — Offered but Invisible",status:"gap",bench:"Peptide market growing at 8.7% CAGR to $295B by 2033",insight:"You offer peptides at $225/mo — a high-margin, recurring revenue service in the fastest-growing segment of wellness medicine. But there's no dedicated peptide page, no content explaining what peptides you offer, and zero SEO targeting. Google searches for 'peptide therapy' are up 340% since 2023. None of your Miami competitors have peptide content either — first-mover advantage is yours for the taking. A comprehensive peptide hub page could capture 50-80 leads/month from a keyword cluster with zero competition.",icon:"🧬",c:C.rb,bg:C.rd},
             {item:"Limited Hours (Closed Sun/Mon at Main Location)",status:"risk",bench:"Top medspas: 6-7 days, extended evening hours",insight:"Your West Gables location (the one with most foot traffic data) is closed Sunday and Monday — that's 28% of the week unavailable. Facial Mania captures afternoon/evening traffic you're missing. Even adding Sunday 10am-4pm could recover 15-20 appointments/week. Your Continuum location is open 6 days, showing you have capacity to flex scheduling.",icon:"🕐",c:C.amb,bg:C.amd},
           ].map((x,i) => (
             <div key={i} style={{padding:"14px 16px",borderRadius:12,background:C.sf,border:`1px solid ${C.bd}`}}>
@@ -2425,9 +2435,12 @@ function App() {
             {cat:"Facials (Hydrafacial, Custom, Microcurrent, Dermaplaning, Peels)",have:true,
               rev:"Industry: 15-20% of revenue",mg:"Margin: 40-65%",c:C.gb,
               note:"Strong facial menu including Hydrafacial (3 tiers) and 6 additional options. These are your gateway services — the patient who books a $175 facial is your future $1,200 Botox patient. Track facial-to-injectable conversion rate (benchmark: 15-25%)."},
-            {cat:"Wellness (GLP-1s, HRT, IV Therapy, Peptides)",have:true,
+            {cat:"Wellness (GLP-1s, HRT, IV Therapy)",have:true,
               rev:"Industry: Fastest growing segment (40%+ growth)",mg:"Margin: 60-80%",c:C.gb,
               note:"This is where Rejuvaline differentiates. GLP-1 weightloss ($105-130/wk), HRT ($250/mo), IV therapy ($150-275), and peptides ($225/mo) are all recurring revenue services. A patient on Semaglutide at $105/wk = $5,460/yr from one patient. This category should be aggressively marketed."},
+            {cat:"Peptide Therapy (BPC-157, GHK-Cu, CJC-1295, PT-141, AOD-9604)",have:true,
+              rev:"Industry: $141B market, 8.7% CAGR — fastest-growing wellness category",mg:"Margin: 70-85%",c:C.gb,
+              note:"This is your next GLP-1-level opportunity. You offer peptides at $225/mo but it's buried in your wellness menu with no marketing. The peptide therapeutics market is projected to reach $295B by 2033. Key offerings: BPC-157 (recovery/gut health), GHK-Cu (skin rejuvenation/hair), CJC-1295/Ipamorelin (anti-aging/growth hormone), PT-141 (sexual wellness), AOD-9604 (fat loss). At $225/mo recurring, this is a high-LTV service — 1 peptide patient for 12 months = $2,700. Target: 50 patients = $135K/yr. Note: FDA banned some peptides from compounding in 2024 — ensure your supply chain uses compliant sources and stay current on regulatory changes."},
             {cat:"Laser (Hair Removal)",have:true,
               rev:"Industry: 10-15% of revenue",mg:"Margin: 70-85%",c:C.ab,
               note:"Laser hair removal listed but no specific technology mentioned. Patients research laser type (diode, alexandrite, Nd:YAG). Adding device names to the page builds credibility, especially for darker skin tones common in your Hispanic market. Package pricing (6 sessions) increases upfront revenue."},
