@@ -390,7 +390,7 @@ function App() {
     { id:"trade", label:"Your Customer Profile", ic:"👥" },
     { id:"growth", label:"Growth Action Plan", ic:"🚀" },
     { id:"profit", label:"Brand Intelligence Audit", ic:"🔬" },
-    { id:"seo", label:"SEO Opportunity", ic:"🔍" },
+    { id:"seo", label:"SEO & Social", ic:"🔍" },
   ];
 
   return (
@@ -815,7 +815,7 @@ function App() {
               <div style={{width:36,height:36,borderRadius:8,background:"rgba(251,113,133,0.15)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:800,color:"#FB7185"}}>CA</div>
               <div style={{flex:1}}>
                 <div style={{fontSize:13,fontWeight:700,color:"#FB7185"}}>Competitor A Med Spa</div>
-                <div style={{fontSize:10,color:C.td}}>facialmaniamedspa.com · 4 Miami locations + expanding to FL/TX</div>
+                <div style={{fontSize:10,color:C.td}}>competitora.com · 4 Miami locations + expanding to FL/TX</div>
               </div>
               <div style={{textAlign:"right"}}><div style={{fontSize:16,fontWeight:800,color:"#FB7185",fontFamily:FONT}}>1,000+</div><div style={{fontSize:9,color:C.td}}>5★ reviews</div></div>
             </div>
@@ -858,7 +858,7 @@ function App() {
               <div style={{width:36,height:36,borderRadius:8,background:"rgba(109,40,217,0.15)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:800,color:"#7C3AED"}}>BH</div>
               <div style={{flex:1}}>
                 <div style={{fontSize:13,fontWeight:700,color:"#7C3AED"}}>Competitor B MedSpa</div>
-                <div style={{fontSize:10,color:C.td}}>beyondhealthmedspa.com · 10344 W Flagler St (2.5 mi from you)</div>
+                <div style={{fontSize:10,color:C.td}}>competitorb.com · 10344 W Flagler St (2.5 mi from you)</div>
               </div>
               <div style={{textAlign:"right"}}><div style={{fontSize:16,fontWeight:800,color:"#7C3AED",fontFamily:FONT}}>4.9★</div><div style={{fontSize:9,color:C.td}}>bilingual</div></div>
             </div>
@@ -908,7 +908,7 @@ function App() {
               <div style={{width:36,height:36,borderRadius:8,background:"rgba(56,189,248,0.15)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:800,color:"#0EA5E9"}}>BC</div>
               <div style={{flex:1}}>
                 <div style={{fontSize:13,fontWeight:700,color:"#0EA5E9"}}>Competitor C Center</div>
-                <div style={{fontSize:10,color:C.td}}>brickellcosmetic.com · Bird Rd location (5751 Bird Rd, 10004 — YOUR zip code)</div>
+                <div style={{fontSize:10,color:C.td}}>competitorc.com · Bird Rd location (5751 Bird Rd, 10004 — YOUR zip code)</div>
               </div>
               <div style={{textAlign:"right"}}><div style={{fontSize:16,fontWeight:800,color:"#0EA5E9",fontFamily:FONT}}>117</div><div style={{fontSize:9,color:C.td}}>Yelp reviews</div></div>
             </div>
@@ -1233,7 +1233,7 @@ function App() {
 {/* ===== SEO COMPETITIVE ===== */}
 {tab === "seo" && (() => {
   const SEO = {
-    you: {domain:"rejuvalinemedspa.com", da:18, organicKw:42, organicTraffic:380, topKw:[
+    you: {domain:"yoursamplemedspa.com", da:18, organicKw:42, organicTraffic:380, topKw:[
       {kw:"rejuvaline medspa",pos:1,vol:110,trend:"stable"},
       {kw:"mobile medspa miami",pos:4,vol:320,trend:"up"},
       {kw:"iv therapy miami",pos:28,vol:1900,trend:"down"},
@@ -1245,7 +1245,7 @@ function App() {
       {kw:"morpheus8 miami",pos:null,vol:1100,trend:null},
       {kw:"weight loss clinic miami",pos:null,vol:1800,trend:null},
     ], pages:6, blog:0, speed:62},
-    c1: {domain:"beyondhealthmedspa.com", da:31, organicKw:287, organicTraffic:4200, topKw:[
+    c1: {domain:"competitorb.com", da:31, organicKw:287, organicTraffic:4200, topKw:[
       {kw:"botox miami",pos:12,vol:6600},
       {kw:"semaglutide miami",pos:8,vol:2400},
       {kw:"medspa miami",pos:18,vol:3600},
@@ -1257,7 +1257,7 @@ function App() {
       {kw:"pdo threads miami",pos:7,vol:660},
       {kw:"weight loss clinic miami",pos:11,vol:1800},
     ], pages:24, blog:8, speed:74},
-    c2: {domain:"facialmaniamedspa.com", da:38, organicKw:510, organicTraffic:7800, topKw:[
+    c2: {domain:"competitora.com", da:38, organicKw:510, organicTraffic:7800, topKw:[
       {kw:"botox miami",pos:8,vol:6600},
       {kw:"medspa miami",pos:6,vol:3600},
       {kw:"facial miami",pos:3,vol:1400},
@@ -1269,7 +1269,7 @@ function App() {
       {kw:"medspa coral gables",pos:2,vol:480},
       {kw:"medspa kendall",pos:4,vol:390},
     ], pages:42, blog:3, speed:58},
-    c3: {domain:"brickellcosmetic.com", da:34, organicKw:340, organicTraffic:5100, topKw:[
+    c3: {domain:"competitorc.com", da:34, organicKw:340, organicTraffic:5100, topKw:[
       {kw:"dermatologist miami",pos:14,vol:4400},
       {kw:"morpheus8 miami",pos:6,vol:1100},
       {kw:"botox miami",pos:19,vol:6600},
@@ -1536,7 +1536,7 @@ function App() {
               winning:["Location + service landing pages (massive keyword coverage)","42 indexed pages vs your 6","Each location targets local neighborhood keywords","Membership pricing prominently featured (captures 'affordable' queries)","Service categories as navigation (clear site architecture for Google)"],
               steal:"You have 3 locations. Creating location-specific service pages (e.g., 'Botox in Nearby Area', 'IV Therapy in Doral', 'Semaglutide near Westchester') would immediately 3x your keyword footprint."},
             {name:"Competitor C",accent:"#A78BFA",bg:"rgba(167,139,250,0.06)",bc:"rgba(167,139,250,0.12)",
-              pages:28,blog:5,ig:"Active",strategy:"Authority play built on medical credentials. Board-certified dermatologist (MD from Brown University) gives them E-E-A-T advantage in Google's eyes. Content emphasizes clinical expertise, before/afters, and condition-based pages (acne, aging, skin cancer screening). Groupon presence drives volume queries.",
+              pages:28,blog:5,ig:"Active",strategy:"Authority play built on medical credentials. Board-certified dermatologist (MD from [Top University]) gives them E-E-A-T advantage in Google's eyes. Content emphasizes clinical expertise, before/afters, and condition-based pages (acne, aging, skin cancer screening). Groupon presence drives volume queries.",
               winning:["Board-certified MD credentials prominently displayed","Condition-based pages (not just treatment-based)","Strong retail product pages (SkinCeuticals, ZO Skin Health)","Active Groupon listings (capture deal-seeker traffic)","In your zip code (10004) — directly competing for local searches"],
               steal:"Their condition-based approach is smart — a page about 'acne treatment' captures broader search intent than 'chemical peel'. Consider creating content that starts with the problem (e.g., 'How to lose weight in Miami') not just the treatment."},
           ].map((comp,i) => (
@@ -1569,9 +1569,164 @@ function App() {
       </Sec>
     </Card>
 
+    {/* Social Media Deep Dive */}
+    <Card>
+      <Sec title="Social Media Competitive Intelligence" sub="How your competitors build audience, engagement, and brand awareness across platforms">
+        {/* Scorecard Grid */}
+        <div style={{marginBottom:16}}>
+          <div style={{fontSize:11,fontWeight:700,color:C.t,textTransform:"uppercase",letterSpacing:0.5,marginBottom:10}}>Platform Scorecard</div>
+          <div style={{overflowX:"auto"}}>
+            <table style={{width:"100%",borderCollapse:"separate",borderSpacing:0,fontSize:11}}>
+              <thead>
+                <tr>
+                  {["","Instagram","Facebook","TikTok","YouTube","Posting Freq.","Engagement"].map((h,i) => (
+                    <th key={i} style={{padding:"8px 10px",textAlign:i===0?"left":"center",fontSize:9,fontWeight:700,color:C.td,textTransform:"uppercase",letterSpacing:0.5,borderBottom:`2px solid ${C.bd}`,whiteSpace:"nowrap"}}>{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  {name:"Sample Medspa",c:C.a,ig:"12K",igScore:"B",fb:"263 likes",fbScore:"D",tk:"Present",tkScore:"C-",yt:"None",ytScore:"F",freq:"High (2,500+ posts)",freqScore:"A",eng:"Low per-post",engScore:"C"},
+                  {name:"Competitor A",c:"#FB7185",ig:"12.5K*",igScore:"B",fb:"2.8K combined",fbScore:"B",tk:"Present",tkScore:"C",yt:"Active",ytScore:"B",freq:"Medium",freqScore:"B",eng:"Medium",engScore:"B"},
+                  {name:"Competitor B",c:"#EC4899",ig:"48K",igScore:"A+",fb:"Inactive",fbScore:"F",tk:"Active",tkScore:"B",yt:"None",ytScore:"F",freq:"Medium (759 posts)",freqScore:"B",eng:"Very High",engScore:"A"},
+                  {name:"Competitor C",c:"#A78BFA",ig:"3.1K",igScore:"D",fb:"2.1K likes",fbScore:"B-",tk:"None",tkScore:"F",yt:"Listed",ytScore:"C",freq:"Low (347 posts)",freqScore:"D",eng:"Low",engScore:"D"}
+                ].map((r,i) => (
+                  <tr key={i} style={{background:i%2===0?C.sf:"transparent"}}>
+                    <td style={{padding:"8px 10px",fontWeight:700,color:r.c,whiteSpace:"nowrap"}}>{r.name}</td>
+                    {[{v:r.ig,s:r.igScore},{v:r.fb,s:r.fbScore},{v:r.tk,s:r.tkScore},{v:r.yt,s:r.ytScore},{v:r.freq,s:r.freqScore},{v:r.eng,s:r.engScore}].map((cell,j) => (
+                      <td key={j} style={{padding:"8px 10px",textAlign:"center",color:C.ts}}>
+                        <div style={{fontSize:11,fontWeight:600}}>{cell.v}</div>
+                        <div style={{fontSize:9,fontWeight:700,color:cell.s.includes("A")?"#10B981":cell.s.includes("B")?"#38BDF8":cell.s.includes("C")?"#FBBF24":"#F87171",marginTop:2}}>{cell.s}</div>
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div style={{marginTop:8,fontSize:10,color:C.td,fontStyle:"italic"}}>* Competitor A runs separate accounts per location — 12.5K combined across Miami-area accounts</div>
+        </div>
+
+        {/* Individual Deep Dives */}
+        <div style={{fontSize:11,fontWeight:700,color:C.t,textTransform:"uppercase",letterSpacing:0.5,marginBottom:10,marginTop:20}}>Competitor Deep Dives</div>
+        <div style={{display:"flex",flexDirection:"column",gap:12}}>
+          {[
+            {name:"Competitor B MedSpa",handle:"@competitorb",accent:"#EC4899",bg:"rgba(236,72,153,0.06)",bc:"rgba(236,72,153,0.12)",
+              headline:"48K followers on 759 posts = the gold standard",
+              stats:[{l:"Followers",v:"48,000"},{l:"Posts",v:"759"},{l:"Following",v:"575"},{l:"Follower Ratio",v:"83:1"}],
+              strategy:"Personal-brand-driven strategy built around founder [Competitor Founder] (APRN-FNP-BC). Low following count (575) relative to 48K followers signals authentic organic growth — not follow-for-follow tactics. Content focuses on signature treatments: PDO Threads, lip fillers, Botox/Dysport, Endolift Laser, sclerotherapy. The 'boutique' positioning drives aspirational engagement.",
+              platforms:[
+                {p:"Instagram",status:"Dominant",detail:"48K followers, 83:1 follower ratio — best in class by far"},
+                {p:"TikTok",status:"Active",detail:"Treatment videos with 20+ hashtags per post covering procedures, location, and lifestyle tags"},
+                {p:"Facebook",status:"Inactive",detail:"Page appears restricted or down — significant blind spot"},
+                {p:"YouTube",status:"None",detail:"No channel found — missing long-form content opportunity"}
+              ],
+              winning:["Founder-as-face personal brand (trust + authenticity)","Quality over quantity — 63x follower per post ratio","Organic growth signals (no follow-for-follow)","Treatment-specific content that educates while selling","Bilingual content capturing Spanish-speaking audience"],
+              steal:"Their personal brand strategy is the blueprint. Having your medical director become 'the face' of the practice on Instagram — showing procedures, explaining science, building trust — is how you get 48K followers without paying for them. Start with 2-3 'day in the life' Reels per week featuring your providers."},
+            {name:"Competitor A Med Spa",handle:"@competitora",accent:"#FBBF24",bg:"rgba(251,191,36,0.06)",bc:"rgba(251,191,36,0.12)",
+              headline:"Multi-location strategy fragments their audience",
+              stats:[{l:"Main IG",v:"7,600"},{l:"Midtown IG",v:"4,900"},{l:"Combined",v:"~12,500"},{l:"FB (Best)",v:"1,533"}],
+              strategy:"Runs separate Instagram and Facebook accounts per location (Nearby Area, Downtown, Doral, Midtown, Plantation). While this localizes content, it dilutes their brand — no single account crosses 10K. The Plantation account anomaly (33K followers on 114 posts) suggests purchased followers or a viral moment. Claims 1,000+ five-star reviews across platforms, leaning heavily on social proof.",
+              platforms:[
+                {p:"Instagram",status:"Fragmented",detail:"5+ accounts across locations — ~12.5K combined Miami following"},
+                {p:"Facebook",status:"Active",detail:"Multiple pages; Midtown has 20% 'talking about' ratio (strong engagement or ad spend)"},
+                {p:"TikTok",status:"Present",detail:"@competitoramiami — follower count unknown"},
+                {p:"YouTube",status:"Active",detail:"Has channel — uncommon among competitors; content type unknown"},
+                {p:"LinkedIn",status:"Active",detail:"583 followers — likely used for B2B/hiring more than patient acquisition"}
+              ],
+              winning:["Location-specific content lets each clinic feel local","Multi-platform presence (IG, FB, TikTok, YouTube, LinkedIn)","Social proof strategy (1,000+ reviews heavily promoted)","$49/mo membership drives repeat engagement","Franchise-ready social playbook that scales"],
+              steal:"Their fragmented strategy is actually a weakness you can exploit. One strong unified account (12K+) will always outperform five scattered ones. But their membership marketing ($49/mo) on social is smart — every post reinforces recurring value. Replicate that with your subscription services."},
+            {name:"Competitor C Center",handle:"@competitorc",accent:"#A78BFA",bg:"rgba(167,139,250,0.06)",bc:"rgba(167,139,250,0.12)",
+              headline:"15 years in business, weakest social presence",
+              stats:[{l:"IG Followers",v:"3,100"},{l:"IG Posts",v:"347"},{l:"FB Likes",v:"2,149"},{l:"Yelp Reviews",v:"117"}],
+              strategy:"The most diversified platform strategy (IG, FB, YouTube, LinkedIn, Pinterest, Twitter) but spread too thin to build authority anywhere. Only 347 Instagram posts over 15+ years is roughly 2 posts per month. Follow-for-follow tactics visible (1,978 following vs 3,105 followers). Strongest Yelp presence (117 reviews) — their clients find them via search and word-of-mouth, not social. No TikTok presence at all.",
+              platforms:[
+                {p:"Instagram",status:"Weak",detail:"3,100 followers after 15 years — low posting frequency (347 total posts)"},
+                {p:"Facebook",status:"Moderate",detail:"2,149 likes — actually their relatively strongest platform vs IG"},
+                {p:"TikTok",status:"None",detail:"Complete absence — biggest gap for a medspa in 2026"},
+                {p:"YouTube",status:"Listed",detail:"Channel exists but minimal content"},
+                {p:"Pinterest",status:"Unique",detail:"Only competitor with Pinterest — untapped for before/after visual content"},
+                {p:"LinkedIn",status:"Active",detail:"305 followers — dermatology positioning may attract professional referrals"}
+              ],
+              winning:["Board-certified dermatologist credentials (MD from Brown) give medical authority","Strongest Yelp review count (117) — word-of-mouth converts","Pinterest presence is unique and underexploited by all competitors","Dedicated social media page on their website shows intent to grow","Dermatology angle differentiates from pure aesthetic competitors"],
+              steal:"Brickell proves that you don't need social media to survive — but they're leaving massive growth on the table. Their absence from TikTok means an entire platform of potential patients in their zip code (10004) is uncontested. If you create TikTok content targeting Brickell/downtown Miami, you'll capture patients they can't reach."}
+          ].map((comp,i) => (
+            <div key={i} style={{borderRadius:12,background:comp.bg,border:`1px solid ${comp.bc}`,padding:"16px 18px"}}>
+              <div style={{display:"flex",alignItems:"center",justifyContent:"space-between",marginBottom:6,flexWrap:"wrap",gap:6}}>
+                <div>
+                  <div style={{fontSize:13,fontWeight:800,color:comp.accent}}>{comp.name}</div>
+                  <div style={{fontSize:10,color:C.td,marginTop:1}}>{comp.handle}</div>
+                </div>
+                <div style={{fontSize:11,fontWeight:600,color:C.ts,fontStyle:"italic"}}>{comp.headline}</div>
+              </div>
+              <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:6,marginBottom:12}}>
+                {comp.stats.map((s,j) => (
+                  <div key={j} style={{textAlign:"center",padding:"6px 4px",borderRadius:7,background:"rgba(255,255,255,0.5)"}}>
+                    <div style={{fontSize:13,fontWeight:800,color:comp.accent}}>{s.v}</div>
+                    <div style={{fontSize:8,color:C.td,textTransform:"uppercase",marginTop:1}}>{s.l}</div>
+                  </div>
+                ))}
+              </div>
+              <div style={{fontSize:11.5,color:C.ts,lineHeight:1.6,marginBottom:12}}>{comp.strategy}</div>
+              <div style={{fontSize:10,fontWeight:700,color:C.t,textTransform:"uppercase",letterSpacing:0.5,marginBottom:6}}>Platform Breakdown:</div>
+              <div style={{display:"flex",flexDirection:"column",gap:4,marginBottom:12}}>
+                {comp.platforms.map((pl,j) => (
+                  <div key={j} style={{display:"flex",alignItems:"center",gap:8,fontSize:11}}>
+                    <span style={{fontWeight:700,color:comp.accent,minWidth:70}}>{pl.p}</span>
+                    <span style={{padding:"1px 6px",borderRadius:4,fontSize:9,fontWeight:600,
+                      background:pl.status==="Dominant"||pl.status==="Active"?"rgba(16,185,129,0.1)":pl.status==="None"||pl.status==="Inactive"?"rgba(248,113,113,0.1)":"rgba(251,191,36,0.1)",
+                      color:pl.status==="Dominant"||pl.status==="Active"?"#10B981":pl.status==="None"||pl.status==="Inactive"?"#F87171":"#FBBF24"
+                    }}>{pl.status}</span>
+                    <span style={{color:C.ts}}>{pl.detail}</span>
+                  </div>
+                ))}
+              </div>
+              <div style={{fontSize:10,fontWeight:700,color:C.t,textTransform:"uppercase",letterSpacing:0.5,marginBottom:6}}>What's working for them:</div>
+              <div style={{display:"flex",flexDirection:"column",gap:3,marginBottom:10}}>
+                {comp.winning.map((w,j) => (
+                  <div key={j} style={{display:"flex",alignItems:"flex-start",gap:6}}>
+                    <span style={{color:comp.accent,fontSize:10,flexShrink:0,marginTop:1}}>▸</span>
+                    <span style={{fontSize:11,color:C.ts,lineHeight:1.4}}>{w}</span>
+                  </div>
+                ))}
+              </div>
+              <div style={{padding:"10px 14px",borderRadius:8,background:"rgba(52,211,153,0.06)",border:"1px solid rgba(52,211,153,0.12)"}}>
+                <div style={{fontSize:10,fontWeight:700,color:C.gb,marginBottom:3}}>💡 STEAL THIS:</div>
+                <div style={{fontSize:11,color:C.ts,lineHeight:1.6}}>{comp.steal}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Your Social Gap */}
+        <div style={{marginTop:16,padding:"18px 20px",borderRadius:12,background:"linear-gradient(135deg,rgba(56,189,248,0.06),rgba(167,139,250,0.04))",border:`1px solid ${C.ba}`}}>
+          <div style={{fontSize:13,fontWeight:800,color:C.t,marginBottom:10,fontFamily:FONT}}>Your Social Media Gap Analysis</div>
+          <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:10,marginBottom:14}}>
+            {[
+              {label:"Instagram",you:"12K followers, 2,516 posts",gap:"High volume but low engagement per post. Competitor B gets 4x your followers with 70% fewer posts.",action:"Shift from quantity to quality — 3 high-production Reels/week > 2 low-effort posts/day",c:C.rob},
+              {label:"TikTok",you:"Account exists but underutilized",gap:"No competitor has built a dominant TikTok presence yet — this is the last unclaimed platform in your market.",action:"Post 4-5 TikToks/week: treatment clips, before/afters, 'what $X gets you', peptide education",c:C.gb},
+              {label:"Facebook",you:"263 likes — weakest of all 4 competitors",gap:"Even Competitor C (smallest social presence) has 8x your Facebook following.",action:"Cross-post Instagram Reels to Facebook, run $200/mo boosted posts targeting 35-55 demo in trade area",c:C.r},
+              {label:"Content Strategy",you:"No personal brand, no provider faces",gap:"Competitor B's founder-as-face strategy drives 48K organic followers. You have none of this.",action:"Feature Dr. [Your Provider] in weekly educational Reels — 'Meet Your Provider' series builds trust + drives branded search",c:C.amb}
+            ].map((g,i) => (
+              <div key={i} style={{padding:"12px 14px",borderRadius:10,background:C.sf,border:`1px solid ${C.bd}`}}>
+                <div style={{fontSize:12,fontWeight:700,color:g.c,marginBottom:6}}>{g.label}</div>
+                <div style={{fontSize:10,color:C.td,marginBottom:3}}>Current: {g.you}</div>
+                <div style={{fontSize:10.5,color:C.ts,lineHeight:1.5,marginBottom:6}}>{g.gap}</div>
+                <div style={{fontSize:10,color:C.gb,fontWeight:600,lineHeight:1.4}}>→ {g.action}</div>
+              </div>
+            ))}
+          </div>
+          <div style={{padding:"10px 14px",borderRadius:8,background:"rgba(52,211,153,0.08)",textAlign:"center"}}>
+            <div style={{fontSize:12,fontWeight:700,color:C.gb,marginBottom:3}}>The Opportunity</div>
+            <div style={{fontSize:11,color:C.ts,lineHeight:1.5}}>No competitor owns TikTok. Competitor B owns Instagram but ignores Facebook. Competitor A is fragmented across 5+ accounts. Brickell barely tries. <strong style={{color:C.t}}>A unified, provider-led social strategy across Instagram + TikTok + Facebook could make you the #1 social presence in your market within 6 months.</strong></div>
+          </div>
+        </div>
+      </Sec>
+    </Card>
+
     {/* Quick wins priority list */}
     <Card>
-      <Sec title="90-Day SEO Sprint" sub="Priority actions ranked by speed-to-revenue impact">
+      <Sec title="90-Day SEO & Social Sprint" sub="Priority actions ranked by speed-to-revenue impact">
         <div style={{display:"flex",flexDirection:"column",gap:8}}>
           {[
             {week:"Week 1-2",action:"Create dedicated Botox + Semaglutide service pages",impact:"Target $9K of the keyword gap",kw:"botox miami (6.6K) + semaglutide miami (2.4K)",effort:"Medium"},
@@ -1581,6 +1736,9 @@ function App() {
             {week:"Week 6-8",action:"Move before/after photos from IG to website gallery",impact:"Boost conversion rate 15-25% + image search traffic",kw:"before and after botox, lip filler results miami",effort:"Easy"},
             {week:"Week 8-12",action:"Google Business Profile optimization + review campaign",impact:"Improve local pack rankings for 'medspa near me'",kw:"medspa near me, best medspa miami, medspa 10004",effort:"Easy"},
             {week:"Week 5-8",action:"Build peptide therapy hub page + 3 supporting blog posts",impact:"Own the emerging peptide therapy keyword cluster",kw:"peptide therapy miami (1.8K), bpc-157 miami (720), peptides for anti-aging",effort:"Medium"},
+            {week:"Week 1-4",action:"Launch TikTok content — 4-5 short-form videos/week",impact:"No competitor owns TikTok yet — first-mover captures the platform",kw:"N/A — social discovery, not search",effort:"Medium"},
+            {week:"Week 2-6",action:"'Meet Your Provider' Reels series on Instagram",impact:"Competitor B's founder-brand strategy drives 48K followers — replicate it",kw:"Boosts branded search volume + trust signals",effort:"Easy"},
+            {week:"Week 4-8",action:"Facebook revival — cross-post Reels + $200/mo boosted posts",impact:"Your 263 FB likes is 8x behind even the weakest competitor",kw:"Target 35-55 demo in trade area zips",effort:"Easy"},
           ].map((x,i) => (
             <div key={i} style={{display:"flex",alignItems:"center",gap:12,padding:"12px 16px",borderRadius:10,background:C.sf,border:`1px solid ${C.bd}`}}>
               <div style={{width:28,height:28,borderRadius:8,background:"linear-gradient(135deg,#38BDF8,#34D399)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:12,fontWeight:800,color:"#fff",flexShrink:0}}>{i+1}</div>
@@ -2374,7 +2532,7 @@ function App() {
 
     {/* SITE AUDIT: What We Found */}
     <Card glow style={{background:"linear-gradient(135deg,rgba(3,105,161,0.04),rgba(109,40,217,0.03))"}}>
-      <Sec title="Site Intelligence Audit" sub="What we found on rejuvalinemedspa.com — compared to industry best practices">
+      <Sec title="Site Intelligence Audit" sub="What we found on yoursamplemedspa.com — compared to industry best practices">
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:10}}>
           {[
             {item:"3 Locations",status:"strength",bench:"Avg medspa: 1.2 locations",insight:"Multi-location is a significant competitive advantage — only ~15% of medspas operate 2+ locations. This gives you geographic coverage across West Gables and Miami Beach, capturing different demographics. Cross-location marketing (\"Visit any location\") increases booking convenience and reduces no-shows.",icon:"📍",c:C.gb,bg:C.gd},
@@ -2427,7 +2585,7 @@ function App() {
 
     {/* ACTUAL PRICING VS BENCHMARKS */}
     <Card>
-      <Sec title="Your Pricing vs Miami Market" sub="Observable prices from rejuvalinemedspa.com compared to market rates">
+      <Sec title="Your Pricing vs Miami Market" sub="Observable prices from yoursamplemedspa.com compared to market rates">
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:10}}>
           {[
             {svc:"Semaglutide",yours:"$105/wk ($420/mo)",market:"$300-600/mo (Miami avg)",verdict:"Competitive",c:C.gb,bg:C.gd,
