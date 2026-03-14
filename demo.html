@@ -24,8 +24,8 @@
 const { useState, useEffect } = React;
 
 const AI1_PREFILL = "**Friday is Your Revenue Anchor — Protect It**\nYour Friday peak (3,000 visits) generates ~25% of weekly traffic. Staff your best injectors on Fridays and consider extending hours to 7pm. At $350 avg ticket, adding just 5 patients on Fridays = $1,750/week = $91K/year.\n\n**Thursday is Your Weakest Day — Fix It**\nThursday traffic (700) is 72% below your daily average. Launch \"Therapeutic Thursdays\" with bundled pricing (facial + IV for $199). Fill 15 empty slots/week at even $200/visit = $3,000/week recovered.\n\n**Your Loyalty is Elite — But Your Funnel is Empty**\n4.08x visit frequency is exceptional, ranking in the top 5% of medspas nationally. However, 2,900 unique visitors vs Competitor A's 12,100 means you're retaining brilliantly but acquiring poorly. Invest $1,500/mo in geo-targeted Google Ads across your top 5 zips.\n\n**Hispanic Market is Under-Penetrated**\n73.8% Hispanic trade area with a 368 over-index, yet your site is English-only. Your nearest competitor (Competitor B MedSpa) actively markets in Spanish 2.5 miles away. A bilingual landing page + Spanish Google Ads could capture 15-25 new patients/month.\n\n**Post-Visit Shopping Pattern = Partnership Gold**\n10.6% of your patients go shopping after appointments (Dadeland Mall 71.1% cross-visit rate). Co-market with Dadeland retailers — leave branded materials in luxury stores, offer cross-promotions with boutiques near your patients' shopping patterns.";
-const AI2_PREFILL = "**Launch $129/mo VIP Membership — Add $12,900/mo Recurring**\nYour 4.08x visit frequency proves patients love you. Convert 100 repeat patients to a $129/mo membership (monthly facial + 15% off injectables + priority booking). That's $12,900/mo in guaranteed recurring revenue before they even walk in.\n\n**List Injectable Pricing — Recover $4-7K/mo in Lost Leads**\nYour highest-margin services (Botox, fillers) have zero pricing on your website. Competitors list \"from $9.99/unit.\" Patients comparison-shop online — if they can't find your price, they book elsewhere. Add \"starting at\" pricing to capture search traffic.\n\n**Add HSA/FSA Payment Badges — Capture $3,900/Patient**\n42.7% of your trade area has employer insurance with an average $3,900 in unused HSA/FSA funds. Most patients don't realize medspa treatments can qualify. Add HSA/FSA badges to every service page and train front desk to mention it at booking.\n\n**Expand Retail Skincare to $8-12K/mo**\nYou feature PRX but lack a dedicated shop page. Competitor C Cosmetic Center sells SkinCeuticals, SkinBetter, and ZO Skin Health online. Medical-grade skincare runs 40-60% margins. Stock 3 premium lines, create an online shop, and train staff to recommend post-treatment products.\n\n**Eliminate 3.75% Credit Card Surcharge**\nYour surcharge creates checkout friction and negative reviews. At $85K/mo revenue, you're collecting ~$3,187/mo in surcharges but likely losing more than that in abandoned bookings and reduced tips. Absorb the cost — raise prices 2-3% instead.";
-const AI3_PREFILL = "## EXECUTIVE SUMMARY\n\nSample Medspa operates with exceptional patient loyalty (4.08x annual visit frequency, top 5% nationally) but faces a critical acquisition gap — just 2,900 unique visitors vs. competitors averaging 10,000+. The practice is leaving an estimated $380-650K/year on the table across 7 identified gaps. This plan targets $41K/mo in new revenue within 12 months through patient acquisition, retention optimization, and digital infrastructure improvements.\n\n## PATIENT ACQUISITION: 90-DAY SPRINT\n\n**Weeks 1-4: Digital Foundation**\nLaunch bilingual website (Spanish landing pages for all service categories). Add transparent \"starting at\" pricing for injectables, facials, and laser services. Fix broken Instagram feed on homepage. Estimated cost: $3-5K one-time. Expected impact: +20% organic traffic within 60 days.\n\n**Weeks 5-8: Paid Acquisition**\nDeploy $1,500/mo Google Ads budget targeting top 5 zip codes (33155, 33137, 33165, 33156, 33032 = 54% of current patients). Keywords: \"botox miami,\" \"medspa coral gables,\" \"semaglutide miami.\" Expected CPA: $43-60. New patients/mo: 25-35. Revenue at $350 avg ticket: $8,750-12,250/mo.\n\n**Weeks 9-12: Membership Launch**\nLaunch 2-tier membership: Essential ($99/mo — monthly facial + 10% off) and VIP ($149/mo — monthly facial + 20% off injectables + priority booking). Target: 50 members by end of Q1 = $5,000-7,450/mo recurring.\n\n## RETENTION & LTV OPTIMIZATION\n\nCurrent return rate (52%) leaves room for improvement. Industry leaders achieve 65-70%. Implement automated post-visit email sequences (treatment reminders at optimal intervals), birthday/anniversary offers, and referral rewards ($50 credit per referral). Each 1% improvement in retention = ~$10K/yr additional revenue.\n\n## REVENUE OPTIMIZATION\n\n**Service Mix Rebalancing:** Injectables (65-80% margin) should be 35-45% of revenue. Ensure Botox/filler pricing is visible and competitive. **Retail Expansion:** Add dedicated skincare shop with 3 medical-grade lines. Target $8-12K/mo at 50% margins. **Mobile Services Premium:** You're the only competitor offering mobile IV/injectables — charge 30-50% premium and market aggressively to hotels and corporate offices.\n\n## MARKETING PLAYBOOK\n\nAllocate $3,500/mo total: Google Ads ($1,500), Instagram/Meta ($1,000), Content/SEO ($500), Partnerships ($500). Focus creative on before/after gallery (78% of patients cite as \"very important\"), bilingual content, and pricing transparency. Partner with Dadeland Mall retailers (71.1% cross-visit rate) for co-marketing.\n\n## 12-MONTH PROJECTION\n\nMonth 1-3: +$8-12K/mo (paid ads + quick wins)\nMonth 4-6: +$18-25K/mo (membership launch + retail + bilingual site)\nMonth 7-9: +$28-35K/mo (compound growth + referral program)\nMonth 10-12: +$35-41K/mo (full optimization + partnership revenue)\n\n**Conservative 12-month total: +$312K in new revenue. Aggressive: +$492K.**";
+const AI2_PREFILL = "**Launch $129/mo VIP Membership — Add $12,900/mo Recurring**\nYour 4.08x visit frequency proves patients love you. Convert 100 repeat patients to a $129/mo membership (monthly facial + 15% off injectables + priority booking). That's $12,900/mo in guaranteed recurring revenue before they even walk in.\n\n**List Injectable Pricing — Recover $4-7K/mo in Lost Leads**\nYour highest-margin services (Botox, fillers) have zero pricing on your website. Competitors list \"from $9.99/unit.\" Patients comparison-shop online — if they can't find your price, they book elsewhere. Add \"starting at\" pricing to capture search traffic.\n\n**Add HSA/FSA Payment Badges — Capture $3,900/Patient**\n42.7% of your trade area has employer insurance with an average $3,900 in unused HSA/FSA funds. Most patients don't realize medspa treatments can qualify. Add HSA/FSA badges to every service page and train front desk to mention it at booking.\n\n**Expand Retail Skincare to $8-12K/mo**\nYou feature PRX but lack a dedicated shop page. Competitor C Center sells SkinCeuticals, SkinBetter, and ZO Skin Health online. Medical-grade skincare runs 40-60% margins. Stock 3 premium lines, create an online shop, and train staff to recommend post-treatment products.\n\n**Eliminate 3.75% Credit Card Surcharge**\nYour surcharge creates checkout friction and negative reviews. At $85K/mo revenue, you're collecting ~$3,187/mo in surcharges but likely losing more than that in abandoned bookings and reduced tips. Absorb the cost — raise prices 2-3% instead.";
+const AI3_PREFILL = "## EXECUTIVE SUMMARY\n\nSample Medspa operates with exceptional patient loyalty (4.08x annual visit frequency, top 5% nationally) but faces a critical acquisition gap — just 2,900 unique visitors vs. competitors averaging 10,000+. The practice is leaving an estimated $380-650K/year on the table across 7 identified gaps. This plan targets $41K/mo in new revenue within 12 months through patient acquisition, retention optimization, and digital infrastructure improvements.\n\n## PATIENT ACQUISITION: 90-DAY SPRINT\n\n**Weeks 1-4: Digital Foundation**\nLaunch bilingual website (Spanish landing pages for all service categories). Add transparent \"starting at\" pricing for injectables, facials, and laser services. Fix broken Instagram feed on homepage. Estimated cost: $3-5K one-time. Expected impact: +20% organic traffic within 60 days.\n\n**Weeks 5-8: Paid Acquisition**\nDeploy $1,500/mo Google Ads budget targeting top 5 zip codes (10004, 33137, 33165, 33156, 33032 = 54% of current patients). Keywords: \"botox miami,\" \"medspa coral gables,\" \"semaglutide miami.\" Expected CPA: $43-60. New patients/mo: 25-35. Revenue at $350 avg ticket: $8,750-12,250/mo.\n\n**Weeks 9-12: Membership Launch**\nLaunch 2-tier membership: Essential ($99/mo — monthly facial + 10% off) and VIP ($149/mo — monthly facial + 20% off injectables + priority booking). Target: 50 members by end of Q1 = $5,000-7,450/mo recurring.\n\n## RETENTION & LTV OPTIMIZATION\n\nCurrent return rate (52%) leaves room for improvement. Industry leaders achieve 65-70%. Implement automated post-visit email sequences (treatment reminders at optimal intervals), birthday/anniversary offers, and referral rewards ($50 credit per referral). Each 1% improvement in retention = ~$10K/yr additional revenue.\n\n## REVENUE OPTIMIZATION\n\n**Service Mix Rebalancing:** Injectables (65-80% margin) should be 35-45% of revenue. Ensure Botox/filler pricing is visible and competitive. **Retail Expansion:** Add dedicated skincare shop with 3 medical-grade lines. Target $8-12K/mo at 50% margins. **Mobile Services Premium:** You're the only competitor offering mobile IV/injectables — charge 30-50% premium and market aggressively to hotels and corporate offices.\n\n## MARKETING PLAYBOOK\n\nAllocate $3,500/mo total: Google Ads ($1,500), Instagram/Meta ($1,000), Content/SEO ($500), Partnerships ($500). Focus creative on before/after gallery (78% of patients cite as \"very important\"), bilingual content, and pricing transparency. Partner with Dadeland Mall retailers (71.1% cross-visit rate) for co-marketing.\n\n## 12-MONTH PROJECTION\n\nMonth 1-3: +$8-12K/mo (paid ads + quick wins)\nMonth 4-6: +$18-25K/mo (membership launch + retail + bilingual site)\nMonth 7-9: +$28-35K/mo (compound growth + referral program)\nMonth 10-12: +$35-41K/mo (full optimization + partnership revenue)\n\n**Conservative 12-month total: +$312K in new revenue. Aggressive: +$492K.**";
 
 
 const C = {
@@ -43,7 +43,7 @@ const FONT = "'Outfit',-apple-system,sans-serif";
 const MRN_LOGO = "data:image/png;base64,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";
 
 const D = {
-  name:"Sample Medspa", addr:"1234 Main St, Miami, FL 33101", period:"Feb 1, 2025 – Jan 31, 2026",
+  name:"Sample Medspa", addr:"123 Main St, Suite 100", period:"Feb 1, 2025 – Jan 31, 2026",
   m:{visits:11900,dwellAvg:50,vpsf:7.43,sqft:1600,visitors:2900,freq:4.08,yoy:-15.7},
   demo:{hhi:84500,ba:39.2,age:40.7,eth:"Hispanic (73.8%)",hh:2.68},
   rank:{loc:{r:335,t:754,p:55}},
@@ -55,7 +55,7 @@ const D = {
     {n:"Dadeland Mall",d:"4.2 mi",p:71.1,ty:"Premium Mall",dm:"$120K+ HHI shoppers"},
     {n:"Dolphin Mall",d:"5.5 mi",p:59.9,ty:"Outlet Mall",dm:"Value-driven, younger"},
     {n:"Tropicaire Shopping Ctr",d:"1.5 mi",p:50.5,ty:"Strip Center",dm:"Core neighborhood"},
-    {n:"Shops at Merrick Park",d:"3 mi",p:49.7,ty:"Luxury Outdoor",dm:"$150K+ HHI, Coral Gables"},
+    {n:"Shops at Merrick Park",d:"3 mi",p:49.7,ty:"Luxury Outdoor",dm:"$150K+ HHI, Downtown"},
     {n:"Palms at Town & Country",d:"6.7 mi",p:46.7,ty:"Community Center",dm:"Family shoppers"},
     {n:"The Westchester",d:"1.9 mi",p:44.1,ty:"Community Center",dm:"Convenience-driven"},
     {n:"Midway Crossings",d:"2 mi",p:43.1,ty:"Strip Center",dm:"Neighborhood regulars"},
@@ -65,37 +65,37 @@ const D = {
   ]
 };
 const ME = {
-  addr:"9101 Pine Blvd, Miami, FL 33103", id:"#1309",
+  addr:"1640 Sheridan St, Hollywood, FL 33020", id:"#1309",
   m:{visits:17800,vpsf:7.05,visitors:9700,freq:1.84,dwellAvg:56,yoy:-16.6},
   demo:{hhi:60400,ba:35.3}
 };
 const FM = {
-  addr:"5678 Oak Ave, Miami, FL 33102",
+  addr:"12038 Oak Ave, Miami, FL 10001",
   m:{visits:14700,vpsf:8.16,visitors:12100,freq:1.21,dwellAvg:39,yoy:-6.7,sqft:1800},
   demo:{hhi:81000,ba:34},
   rank:{nat:{r:35693,t:84267,p:57},fl:{r:3032,t:7768,p:60},loc:{r:237,t:620,p:61}}
 };
 const COMP_JOURNEYS = {
   beyondHealth: {
-    name: "Competitor B MedSpa", short: "BH", color: "#EC4899", bg: "rgba(236,72,153,0.06)", bc: "rgba(236,72,153,0.12)",
+    name: "Competitor B MedSpa", short: "CB", color: "#EC4899", bg: "rgba(236,72,153,0.06)", bc: "rgba(236,72,153,0.12)",
     before: [["Home",52.1],["Work",14.3],["Shopping",6.8],["Gym/Fitness",4.2],["Restaurant",3.1]],
     after: [["Shopping",12.8],["Restaurant",9.2],["Grocery",5.4],["Home",48.1],["Gas Station",4.6]],
-    topPlaces: [{n:"Dolphin Mall",p:58.2,ty:"Mall"},{n:"International Mall",p:44.8,ty:"Mall"},{n:"Flanigans (Flagler)",p:31.2,ty:"Restaurant"},{n:"LA Fitness (Flagler St)",p:28.7,ty:"Gym"},{n:"Publix (Main corridor)",p:26.4,ty:"Grocery"},{n:"Starbucks (Coral Way)",p:22.1,ty:"Coffee"},{n:"Target (Coral Way)",p:19.8,ty:"Retail"},{n:"Orangetheory (Westchester)",p:17.3,ty:"Fitness"}]
+    topPlaces: [{n:"Dolphin Mall",p:58.2,ty:"Mall"},{n:"International Mall",p:44.8,ty:"Mall"},{n:"Flanigans (Flagler)",p:31.2,ty:"Restaurant"},{n:"LA Fitness (Flagler St)",p:28.7,ty:"Gym"},{n:"Publix (Bird Rd)",p:26.4,ty:"Grocery"},{n:"Starbucks (Coral Way)",p:22.1,ty:"Coffee"},{n:"Target (Coral Way)",p:19.8,ty:"Retail"},{n:"Orangetheory (Westchester)",p:17.3,ty:"Fitness"}]
   },
   facialMania: {
-    name: "Competitor A", short: "FM", color: "#FB7185", bg: "rgba(251,113,133,0.06)", bc: "rgba(251,113,133,0.12)",
+    name: "Competitor A", short: "CA", color: "#FB7185", bg: "rgba(251,113,133,0.06)", bc: "rgba(251,113,133,0.12)",
     before: [["Home",28.8],["Work",7.7],["Community Shopping",7.5],["Restaurants",2.9],["Medical Centers",2.2]],
     after: [["Home",35.9],["Community Shopping",9.4],["Work",4.2],["Fast Food & QSR",2.3],["Groceries",2.2]],
-    topPlaces: [{n:"Palms at Town & Country",p:80.4,ty:"Shopping"},{n:"Dadeland Mall",p:78.9,ty:"Mall"},{n:"Dolphin Mall",p:74.0,ty:"Mall"},{n:"Kendall Village Center",p:70.0,ty:"Shopping"},{n:"The Falls",p:60.9,ty:"Mall"},{n:"Target",p:55.8,ty:"Retail"},{n:"Shops of Kendall",p:52.5,ty:"Shopping"},{n:"T.J. Maxx Plaza",p:51.9,ty:"Retail"},{n:"Chick-fil-A",p:49.9,ty:"Restaurant"},{n:"Kendall Corners",p:49.3,ty:"Shopping"}]
+    topPlaces: [{n:"Palms at Town & Country",p:80.4,ty:"Shopping"},{n:"Dadeland Mall",p:78.9,ty:"Mall"},{n:"Dolphin Mall",p:74.0,ty:"Mall"},{n:"Nearby Area Village Center",p:70.0,ty:"Shopping"},{n:"The Falls",p:60.9,ty:"Mall"},{n:"Target",p:55.8,ty:"Retail"},{n:"Shops of Nearby Area",p:52.5,ty:"Shopping"},{n:"T.J. Maxx Plaza",p:51.9,ty:"Retail"},{n:"Chick-fil-A",p:49.9,ty:"Restaurant"},{n:"Nearby Area Corners",p:49.3,ty:"Shopping"}]
   },
   brickellCosmetic: {
-    name: "Competitor C", short: "BC", color: "#A78BFA", bg: "rgba(167,139,250,0.06)", bc: "rgba(167,139,250,0.12)",
+    name: "Competitor C", short: "CC", color: "#A78BFA", bg: "rgba(167,139,250,0.06)", bc: "rgba(167,139,250,0.12)",
     before: [["Home",44.7],["Work",18.9],["Shopping",5.3],["Gym/Fitness",6.1],["Medical/Dental",3.8]],
     after: [["Shopping",8.6],["Restaurant",7.4],["Home",51.3],["Grocery",5.9],["Medical/Dental",4.2]],
-    topPlaces: [{n:"Shops at Merrick Park",p:61.3,ty:"Luxury Mall"},{n:"Downtown City Centre",p:48.7,ty:"Mall"},{n:"Equinox (Downtown)",p:36.2,ty:"Gym"},{n:"Whole Foods (Coral Gables)",p:27.1,ty:"Grocery"},{n:"Downtown Village",p:25.4,ty:"Shopping"},{n:"Barry's (Downtown)",p:22.8,ty:"Fitness"},{n:"Sephora (Merrick Park)",p:20.3,ty:"Beauty Retail"},{n:"Greenstreet Cafe",p:18.6,ty:"Restaurant"},{n:"SoulCycle (Coral Gables)",p:16.9,ty:"Fitness"},{n:"Nordstrom (Merrick Park)",p:15.1,ty:"Dept Store"}]
+    topPlaces: [{n:"Shops at Merrick Park",p:61.3,ty:"Luxury Mall"},{n:"Brickell City Centre",p:48.7,ty:"Mall"},{n:"Equinox (Brickell)",p:36.2,ty:"Gym"},{n:"Whole Foods (Downtown)",p:27.1,ty:"Grocery"},{n:"Mary Brickell Village",p:25.4,ty:"Shopping"},{n:"Barry's (Brickell)",p:22.8,ty:"Fitness"},{n:"Sephora (Merrick Park)",p:20.3,ty:"Beauty Retail"},{n:"Greenstreet Cafe",p:18.6,ty:"Restaurant"},{n:"SoulCycle (Downtown)",p:16.9,ty:"Fitness"},{n:"Nordstrom (Merrick Park)",p:15.1,ty:"Dept Store"}]
   },
   massageEnvy: {
-    name: "Competitor D", short: "ME", color: "#38BDF8", bg: "rgba(56,189,248,0.06)", bc: "rgba(56,189,248,0.12)",
+    name: "Competitor D", short: "CD", color: "#38BDF8", bg: "rgba(56,189,248,0.06)", bc: "rgba(56,189,248,0.12)",
     before: [["Home",52.6],["Work",8.8],["Community Shopping",4.1],["General Residential",2.3],["Fast Food & QSR",2.0]],
     after: [["Home",47.9],["Work",5.8],["Community Shopping",3.8],["Groceries",3.3],["Fast Food & QSR",2.8]],
     topPlaces: [{n:"Dania Pointe",p:83.8,ty:"Shopping"},{n:"Oakwood Plaza",p:81.8,ty:"Shopping"},{n:"Hollywood Hills Plaza",p:67.4,ty:"Shopping"},{n:"Sheridan Plaza",p:64.0,ty:"Shopping"},{n:"Publix",p:61.4,ty:"Grocery"},{n:"Aventura Mall",p:60.7,ty:"Mall"},{n:"Sheridan Square",p:51.1,ty:"Shopping"},{n:"The Home Depot",p:50.0,ty:"Home"},{n:"Aventura Commons",p:48.8,ty:"Shopping"},{n:"Tower Shops",p:46.5,ty:"Shopping"}]
@@ -103,34 +103,34 @@ const COMP_JOURNEYS = {
 };
 const COMP_ZIPS = {
   facialMania: {
-    name: "Competitor A Med Spa", short: "FM", color: "#FB7185", bg: "rgba(251,113,133,0.06)", bc: "rgba(251,113,133,0.12)",
-    addr: "5678 Oak Ave, Miami, FL 33102",
+    name: "Competitor A Med Spa", short: "CA", color: "#FB7185", bg: "rgba(251,113,133,0.06)", bc: "rgba(251,113,133,0.12)",
+    addr: "12038 Oak Ave, Miami, FL 10001",
     total: 14557,
     zips: [
-      {z:"33186",a:"Three Lakes",v:2000,p:13.5},{z:"33196",a:"The Hammocks",v:1400,p:9.6},
-      {z:"33176",a:"Kendall",v:1200,p:8.0},{z:"33183",a:"Kendale Lakes",v:1100,p:7.5},
-      {z:"33193",a:"Kendall West",v:944,p:6.5},{z:"33175",a:"Tamiami",v:760,p:5.2},
-      {z:"33177",a:"S. Miami Heights",v:683,p:4.7},{z:"33185",a:"Kendall West",v:579,p:4.0},
+      {z:"10001",a:"Local Area",v:2000,p:13.5},{z:"33196",a:"The Hammocks",v:1400,p:9.6},
+      {z:"33176",a:"Nearby Area",v:1200,p:8.0},{z:"33183",a:"Kendale Lakes",v:1100,p:7.5},
+      {z:"10003",a:"Nearby Area West",v:944,p:6.5},{z:"10002",a:"Adjacent Area",v:760,p:5.2},
+      {z:"33177",a:"S. Miami Heights",v:683,p:4.7},{z:"33185",a:"Nearby Area West",v:579,p:4.0},
       {z:"33033",a:"Homestead",v:579,p:4.0},{z:"33032",a:"Princeton",v:492,p:3.4}
     ]
   },
   massageEnvy: {
-    name: "Competitor D", short: "ME", color: "#38BDF8", bg: "rgba(56,189,248,0.06)", bc: "rgba(56,189,248,0.12)",
-    addr: "9101 Pine Blvd, Miami, FL 33103",
+    name: "Competitor D", short: "CD", color: "#38BDF8", bg: "rgba(56,189,248,0.06)", bc: "rgba(56,189,248,0.12)",
+    addr: "1640 Sheridan St, Hollywood, FL 33020",
     total: 13279,
     zips: [
-      {z:"33186",a:"Three Lakes",v:2200,p:16.9},{z:"33175",a:"Tamiami",v:1900,p:14.3},
-      {z:"33193",a:"Kendall West",v:1400,p:10.2},{z:"33196",a:"The Hammocks",v:656,p:4.9},
+      {z:"10001",a:"Local Area",v:2200,p:16.9},{z:"10002",a:"Adjacent Area",v:1900,p:14.3},
+      {z:"10003",a:"Nearby Area West",v:1400,p:10.2},{z:"33196",a:"The Hammocks",v:656,p:4.9},
       {z:"33032",a:"Princeton",v:628,p:4.7},{z:"33183",a:"Kendale Lakes",v:489,p:3.7},
-      {z:"33176",a:"Kendall",v:419,p:3.2},{z:"33134",a:"Coral Gables",v:418,p:3.2},
+      {z:"33176",a:"Nearby Area",v:419,p:3.2},{z:"33134",a:"Downtown",v:418,p:3.2},
       {z:"33156",a:"Pinecrest",v:410,p:3.1},{z:"33177",a:"S. Miami Heights",v:271,p:2.0}
     ]
   }
 };
 const ZIPS = [
-  {z:"33155",a:"Coral Terrace",v:1600,p:13.9},{z:"33137",a:"Miami",v:872,p:7.4},
+  {z:"10004",a:"Coral Terrace",v:1600,p:13.9},{z:"33137",a:"Miami",v:872,p:7.4},
   {z:"33165",a:"Westchester",v:661,p:5.6},{z:"33156",a:"Pinecrest",v:652,p:5.5},
-  {z:"33032",a:"Princeton",v:644,p:5.4},{z:"33186",a:"Three Lakes",v:411,p:3.5},
+  {z:"33032",a:"Princeton",v:644,p:5.4},{z:"10001",a:"Local Area",v:411,p:3.5},
   {z:"33132",a:"Miami (Downtown)",v:408,p:3.4},{z:"33143",a:"Glenvar Heights",v:394,p:3.3},
   {z:"33144",a:"Miami (West)",v:381,p:3.2},{z:"33158",a:"Palmetto Bay",v:352,p:3.0},
 ];
@@ -368,7 +368,7 @@ function App() {
   const callAI = async (prompt, setter, loader) => { loader(true); setTimeout(() => { setter("AI insights pre-loaded for this demo."); loader(false); }, 500); };
 
   const genMarket = () => callAI(
-    `You are a medspa business intelligence analyst. Analyze this data for ${D.name}. Give 5 specific actionable insights. Never mention third-party data sources.\nPROPERTY: ${D.m.visits.toLocaleString()} visits/12mo, YoY ${D.m.yoy}%, ${D.m.visitors.toLocaleString()} uniques, ${D.m.freq}x freq, ${D.m.dwellAvg}min dwell\nDEMO: $${D.demo.hhi.toLocaleString()} HHI, ${D.demo.eth}, age ${D.demo.age}, ${D.demo.ba}% BA+\nTRAFFIC: Fri peak 3K, Thu low 700, Closed Sun. 70% Hispanic, $84.5K median HHI, 46% $100K+\nTOP ZIPS: 33155(13.9%), 33137(7.4%), 33165(5.6%). Post-visit: 10.6% shopping, 7.9% restaurants\nVS COMPETITOR D: 17.8K visits, 1.84x freq (you 4.08x). HHI $60.4K (you $84.5K). Both ~-16% YoY.\nFormat: **Bold Title** then 2-3 sentences. Under 400 words.`,
+    `You are a medspa business intelligence analyst. Analyze this data for ${D.name}. Give 5 specific actionable insights. Never mention third-party data sources.\nPROPERTY: ${D.m.visits.toLocaleString()} visits/12mo, YoY ${D.m.yoy}%, ${D.m.visitors.toLocaleString()} uniques, ${D.m.freq}x freq, ${D.m.dwellAvg}min dwell\nDEMO: $${D.demo.hhi.toLocaleString()} HHI, ${D.demo.eth}, age ${D.demo.age}, ${D.demo.ba}% BA+\nTRAFFIC: Fri peak 3K, Thu low 700, Closed Sun. 70% Hispanic, $84.5K median HHI, 46% $100K+\nTOP ZIPS: 10004(13.9%), 33137(7.4%), 33165(5.6%). Post-visit: 10.6% shopping, 7.9% restaurants\nVS MASSAGE ENVY: 17.8K visits, 1.84x freq (you 4.08x). HHI $60.4K (you $84.5K). Both ~-16% YoY.\nFormat: **Bold Title** then 2-3 sentences. Under 400 words.`,
     setAi1, setL1
   );
 
@@ -378,7 +378,7 @@ function App() {
   );
 
   const genGrowth = () => callAI(
-    `You are an elite medspa growth strategist. Write a comprehensive Growth Report for ${D.name} in Miami. Be granular with dollar amounts and ROI. Never mention third-party data sources.\nTRAFFIC: ${D.m.visits.toLocaleString()} visits/yr, ${D.m.visitors.toLocaleString()} uniques, ${D.m.freq}x freq, YoY ${D.m.yoy}%. Fri peak 3K, Thu low 700.\nFINANCIALS: $${fin.rev.toLocaleString()}/mo, $${fin.ticket} ticket, ${fin.patients} pts, ${fin.retRate}% return, ${netMg}% margin.\nDEMO: 70% Hispanic(368 idx). 28.9% Millennials(142). $84.5K median HHI, 46% $100K+.\nEDUCATION: 46.1% BA+. INSURANCE: 42.7% employer(HSA/FSA), 15.9% uninsured, 14.3% direct, 13.3% Medicaid.\nTOP ZIPS: 33155(13.9%), 33137(7.4%), 33165(5.6%), 33156(5.5%), 33032(5.4%). Top5=54%.\nCROSS-VISIT: Dadeland 71.1%, Merrick Park 49.7%. Post-visit: 10.6% shopping, 7.9% dining.\nSections: **EXECUTIVE SUMMARY** **PATIENT ACQUISITION: 90-DAY SPRINT** **RETENTION & LTV** **REVENUE OPTIMIZATION** **MARKETING PLAYBOOK** **12-MONTH PROJECTION**. Use ## for section headers. Note: financial figures are estimated defaults and should be verified by the practice owner. Never use the word collapse. Under 900 words.`,
+    `You are an elite medspa growth strategist. Write a comprehensive Growth Report for ${D.name} in Miami. Be granular with dollar amounts and ROI. Never mention third-party data sources.\nTRAFFIC: ${D.m.visits.toLocaleString()} visits/yr, ${D.m.visitors.toLocaleString()} uniques, ${D.m.freq}x freq, YoY ${D.m.yoy}%. Fri peak 3K, Thu low 700.\nFINANCIALS: $${fin.rev.toLocaleString()}/mo, $${fin.ticket} ticket, ${fin.patients} pts, ${fin.retRate}% return, ${netMg}% margin.\nDEMO: 70% Hispanic(368 idx). 28.9% Millennials(142). $84.5K median HHI, 46% $100K+.\nEDUCATION: 46.1% BA+. INSURANCE: 42.7% employer(HSA/FSA), 15.9% uninsured, 14.3% direct, 13.3% Medicaid.\nTOP ZIPS: 10004(13.9%), 33137(7.4%), 33165(5.6%), 33156(5.5%), 33032(5.4%). Top5=54%.\nCROSS-VISIT: Dadeland 71.1%, Merrick Park 49.7%. Post-visit: 10.6% shopping, 7.9% dining.\nSections: **EXECUTIVE SUMMARY** **PATIENT ACQUISITION: 90-DAY SPRINT** **RETENTION & LTV** **REVENUE OPTIMIZATION** **MARKETING PLAYBOOK** **12-MONTH PROJECTION**. Use ## for section headers. Note: financial figures are estimated defaults and should be verified by the practice owner. Never use the word collapse. Under 900 words.`,
     setAi3, setL3
   );
 
@@ -442,14 +442,14 @@ function App() {
   const opps = [
     {name:"Membership Program Launch",rev:"$155K",lo:129000,hi:180000,ease:"Easy",timeline:"30 days",cat:"Revenue",detail:"$129/mo VIP membership. Convert 100 of your 2,900 loyal patients. Your 4.08x frequency proves they'll use it."},
     {name:"Thursday Traffic Recovery",rev:"$156K",lo:130000,hi:180000,ease:"Easy",timeline:"2 weeks",cat:"Operations",detail:"Thursday traffic (700) is 72% below daily average. Launch 'Therapeutic Thursday' bundles to fill 15 empty slots/week."},
-    {name:"Paid Acquisition — Top Zip Codes",rev:"$105-147K",lo:105000,hi:147000,ease:"Medium",timeline:"60 days",cat:"Acquisition",detail:"$1,500/mo Google Ads targeting 33155, 33137, 33165 + competitor zips 33186, 33175, 33193. Expected 25-35 new patients/mo."},
+    {name:"Paid Acquisition — Top Zip Codes",rev:"$105-147K",lo:105000,hi:147000,ease:"Medium",timeline:"60 days",cat:"Acquisition",detail:"$1,500/mo Google Ads targeting 10004, 33137, 33165 + competitor zips 10001, 10002, 10003. Expected 25-35 new patients/mo."},
     {name:"Bilingual Website + Spanish Ads",rev:"$63-105K",lo:63000,hi:105000,ease:"Medium",timeline:"45 days",cat:"Acquisition",detail:"73.8% Hispanic trade area but English-only site. Bilingual landing pages + Spanish Google Ads could capture 15-25 new patients/mo."},
     {name:"Retail Skincare Expansion",rev:"$96-144K",lo:96000,hi:144000,ease:"Medium",timeline:"60 days",cat:"Revenue",detail:"You feature PRX but lack a dedicated shop. Add 3 medical-grade lines (SkinCeuticals, ZO, SkinBetter) at 40-60% margins."},
     {name:"Injectable Pricing Transparency",rev:"$48-84K",lo:48000,hi:84000,ease:"Easy",timeline:"1 week",cat:"Conversion",detail:"Highest-margin services have zero pricing online. Competitors list 'from $9.99/unit.' Add 'starting at' pricing to recover lost leads."},
     {name:"Friday Peak Optimization",rev:"$91K",lo:75000,hi:91000,ease:"Easy",timeline:"2 weeks",cat:"Operations",detail:"Friday peak (3,000 visits) = 25% of weekly traffic. Extend hours to 7pm, staff best injectors. Adding 5 patients = $1,750/wk."},
     {name:"HSA/FSA Payment Promotion",rev:"$45-65K",lo:45000,hi:65000,ease:"Easy",timeline:"1 week",cat:"Conversion",detail:"42.7% of trade area has employer insurance with avg $3,900 unused HSA/FSA. Add badges to every service page and booking flow."},
     {name:"SEO Content Buildout",rev:"$36-60K",lo:36000,hi:60000,ease:"Hard",timeline:"6 months",cat:"Acquisition",detail:"6 pages vs competitors with 40+. Create service-specific pages for every keyword cluster. Target 20x traffic increase."},
-    {name:"Competitor Zip Code Poaching",rev:"$50-75K",lo:50000,hi:75000,ease:"Medium",timeline:"30 days",cat:"Acquisition",detail:"33186 is #1 zip for both Competitor A (13.5%) and Competitor D (16.9%) but only 3.5% of your traffic. Geo-fence these zips."},
+    {name:"Competitor Zip Code Poaching",rev:"$50-75K",lo:50000,hi:75000,ease:"Medium",timeline:"30 days",cat:"Acquisition",detail:"10001 is #1 zip for both Competitor A (13.5%) and Competitor D (16.9%) but only 3.5% of your traffic. Geo-fence these zips."},
     {name:"Retail Partnership Revenue",rev:"$24-36K",lo:24000,hi:36000,ease:"Medium",timeline:"90 days",cat:"Partnerships",detail:"Dadeland Mall 71.1% cross-visit rate. Co-market with luxury retailers, leave branded materials, cross-promotions."},
     {name:"Credit Card Surcharge Removal",rev:"$15-25K",lo:15000,hi:25000,ease:"Easy",timeline:"Immediate",cat:"Conversion",detail:"3.75% surcharge creates checkout friction and negative reviews. Absorb cost, raise prices 2-3% instead. Net positive from saved bookings."},
   ];
@@ -746,9 +746,9 @@ function App() {
       <Sec title="Competitive Battle Card" sub="You vs. Local Independent vs. National Chain">
         <div style={{display:"grid",gridTemplateColumns:"1fr 110px 110px 110px",gap:6,marginBottom:8}}>
           <div />
-          <div style={{textAlign:"center"}}><div style={{width:32,height:32,borderRadius:8,background:"linear-gradient(135deg,#38BDF8,#A78BFA)",display:"inline-flex",alignItems:"center",justifyContent:"center",fontSize:12,fontWeight:800,color:"#fff",marginBottom:3}}>RM</div><div style={{fontSize:10,fontWeight:700,color:C.a}}>Sample Medspa</div><div style={{fontSize:9,color:C.td}}>SW 21st St</div></div>
-          <div style={{textAlign:"center"}}><div style={{width:32,height:32,borderRadius:8,background:"rgba(251,113,133,0.12)",display:"inline-flex",alignItems:"center",justifyContent:"center",fontSize:12,fontWeight:800,color:"#FB7185",marginBottom:3,border:"1px solid rgba(251,113,133,0.2)"}}>FM</div><div style={{fontSize:10,fontWeight:700,color:"#FB7185"}}>Competitor A</div><div style={{fontSize:9,color:C.td}}>SW 88th St</div></div>
-          <div style={{textAlign:"center"}}><div style={{width:32,height:32,borderRadius:8,background:"rgba(251,191,36,0.12)",display:"inline-flex",alignItems:"center",justifyContent:"center",fontSize:12,fontWeight:800,color:"#FBBF24",marginBottom:3,border:"1px solid rgba(251,191,36,0.2)"}}>ME</div><div style={{fontSize:10,fontWeight:700,color:"#FBBF24"}}>Competitor D</div><div style={{fontSize:9,color:C.td}}>Kendall</div></div>
+          <div style={{textAlign:"center"}}><div style={{width:32,height:32,borderRadius:8,background:"linear-gradient(135deg,#38BDF8,#A78BFA)",display:"inline-flex",alignItems:"center",justifyContent:"center",fontSize:12,fontWeight:800,color:"#fff",marginBottom:3}}>SM</div><div style={{fontSize:10,fontWeight:700,color:C.a}}>Sample Medspa</div><div style={{fontSize:9,color:C.td}}>Main St</div></div>
+          <div style={{textAlign:"center"}}><div style={{width:32,height:32,borderRadius:8,background:"rgba(251,113,133,0.12)",display:"inline-flex",alignItems:"center",justifyContent:"center",fontSize:12,fontWeight:800,color:"#FB7185",marginBottom:3,border:"1px solid rgba(251,113,133,0.2)"}}>CA</div><div style={{fontSize:10,fontWeight:700,color:"#FB7185"}}>Competitor A</div><div style={{fontSize:9,color:C.td}}>Oak Ave</div></div>
+          <div style={{textAlign:"center"}}><div style={{width:32,height:32,borderRadius:8,background:"rgba(251,191,36,0.12)",display:"inline-flex",alignItems:"center",justifyContent:"center",fontSize:12,fontWeight:800,color:"#FBBF24",marginBottom:3,border:"1px solid rgba(251,191,36,0.2)"}}>CD</div><div style={{fontSize:10,fontWeight:700,color:"#FBBF24"}}>Competitor D</div><div style={{fontSize:9,color:C.td}}>Nearby Area</div></div>
         </div>
         <H2H label="Total Visits (12mo)" yours={D.m.visits} comp1={FM.m.visits} comp2={ME.m.visits} fmt={v => `${(v/1000).toFixed(1)}K`} />
         <H2H label="Unique Visitors" yours={D.m.visitors} comp1={FM.m.visitors} comp2={ME.m.visitors} fmt={v => `${(v/1000).toFixed(1)}K`} />
@@ -772,7 +772,7 @@ function App() {
           ))}
         </div>
         <div style={{marginTop:14,padding:"12px 16px",borderRadius:9,background:C.sf,border:`1px solid ${C.bd}`,fontSize:12,color:C.ts,lineHeight:1.6}}>
-          <strong style={{color:C.t}}>The story:</strong> Sample Medspa dominates on loyalty (3.4x more repeat visits than FM) and engagement (50-min dwell = premium procedures). But Competitor A attracts 4x more unique visitors with a lower-ticket, high-volume model. The gap isn't quality — it's awareness. Geo-targeted ads in FM's trade area (Kendall Lakes, 33186) can capture patients who want premium but don't know you exist.
+          <strong style={{color:C.t}}>The story:</strong> Sample Medspa dominates on loyalty (3.4x more repeat visits than FM) and engagement (50-min dwell = premium procedures). But Competitor A attracts 4x more unique visitors with a lower-ticket, high-volume model. The gap isn't quality — it's awareness. Geo-targeted ads in FM's trade area (Nearby Area, 10001) can capture patients who want premium but don't know you exist.
         </div>
       </Sec>
     </Card>
@@ -812,16 +812,16 @@ function App() {
           {/* Competitor A */}
           <div style={{padding:"20px",borderRadius:14,background:"linear-gradient(135deg,rgba(251,113,133,0.04),rgba(251,113,133,0.08))",border:"1px solid rgba(251,113,133,0.12)"}}>
             <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:12}}>
-              <div style={{width:36,height:36,borderRadius:8,background:"rgba(251,113,133,0.15)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:800,color:"#FB7185"}}>FM</div>
+              <div style={{width:36,height:36,borderRadius:8,background:"rgba(251,113,133,0.15)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:800,color:"#FB7185"}}>CA</div>
               <div style={{flex:1}}>
                 <div style={{fontSize:13,fontWeight:700,color:"#FB7185"}}>Competitor A Med Spa</div>
-                <div style={{fontSize:10,color:C.td}}>competitora.com · 4 Miami locations + expanding to FL/TX</div>
+                <div style={{fontSize:10,color:C.td}}>facialmaniamedspa.com · 4 Miami locations + expanding to FL/TX</div>
               </div>
               <div style={{textAlign:"right"}}><div style={{fontSize:16,fontWeight:800,color:"#FB7185",fontFamily:FONT}}>1,000+</div><div style={{fontSize:9,color:C.td}}>5★ reviews</div></div>
             </div>
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:8,marginBottom:12}}>
               {[
-                {l:"Locations",v:"4 (Coral Gables, Doral, Kendall, Midtown)",you:"3",threat:"high"},
+                {l:"Locations",v:"4 (Downtown, Doral, Nearby Area, Midtown)",you:"3",threat:"high"},
                 {l:"Membership",v:"From $49.99/mo (4 tiers: Amber→Platinum)",you:"None",threat:"critical"},
                 {l:"Botox Price",v:"Starting at $9.99/unit",you:"Not listed",threat:"high"},
                 {l:"Member Perks",v:"30% off all treatments, 20% off products, rollover credits",you:"No program",threat:"critical"},
@@ -858,7 +858,7 @@ function App() {
               <div style={{width:36,height:36,borderRadius:8,background:"rgba(109,40,217,0.15)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:800,color:"#7C3AED"}}>BH</div>
               <div style={{flex:1}}>
                 <div style={{fontSize:13,fontWeight:700,color:"#7C3AED"}}>Competitor B MedSpa</div>
-                <div style={{fontSize:10,color:C.td}}>competitorb.com · 2468 Elm Dr (2.5 mi from you)</div>
+                <div style={{fontSize:10,color:C.td}}>beyondhealthmedspa.com · 10344 W Flagler St (2.5 mi from you)</div>
               </div>
               <div style={{textAlign:"right"}}><div style={{fontSize:16,fontWeight:800,color:"#7C3AED",fontFamily:FONT}}>4.9★</div><div style={{fontSize:9,color:C.td}}>bilingual</div></div>
             </div>
@@ -902,22 +902,22 @@ function App() {
             </div>
           </div>
 
-          {/* Competitor C Cosmetic Center */}
+          {/* Competitor C Center */}
           <div style={{padding:"20px",borderRadius:14,background:"linear-gradient(135deg,rgba(56,189,248,0.04),rgba(56,189,248,0.08))",border:"1px solid rgba(56,189,248,0.12)"}}>
             <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:12}}>
               <div style={{width:36,height:36,borderRadius:8,background:"rgba(56,189,248,0.15)",display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:800,color:"#0EA5E9"}}>BC</div>
               <div style={{flex:1}}>
-                <div style={{fontSize:13,fontWeight:700,color:"#0EA5E9"}}>Competitor C Cosmetic Center</div>
-                <div style={{fontSize:10,color:C.td}}>competitorc.com · Main corridor location (Near your zip code)</div>
+                <div style={{fontSize:13,fontWeight:700,color:"#0EA5E9"}}>Competitor C Center</div>
+                <div style={{fontSize:10,color:C.td}}>brickellcosmetic.com · Bird Rd location (5751 Bird Rd, 10004 — YOUR zip code)</div>
               </div>
               <div style={{textAlign:"right"}}><div style={{fontSize:16,fontWeight:800,color:"#0EA5E9",fontFamily:FONT}}>117</div><div style={{fontSize:9,color:C.td}}>Yelp reviews</div></div>
             </div>
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:8,marginBottom:12}}>
               {[
-                {l:"Locations",v:"2 (Main corridor + Comp. C)",you:"3",threat:"medium"},
+                {l:"Locations",v:"2 (Bird Rd + Brickell)",you:"3",threat:"medium"},
                 {l:"Morpheus8",v:"3 sessions for $1,575 (promo)",you:"Offered, no pricing",threat:"high"},
                 {l:"Retail",v:"SkinCeuticals, SkinBetter, ZO Skin Health",you:"PRX only (limited)",threat:"high"},
-                {l:"Board Certified MD",v:"Dr. Smith (Top university dermatologist)",you:"Your provider + NPs",threat:"medium"},
+                {l:"Board Certified MD",v:"Dr. Chacon (Brown Univ dermatologist)",you:"Dr. Javi + NPs",threat:"medium"},
                 {l:"Hours",v:"Mon-Sat 9-6, Wed until 7pm",you:"Tue-Sat 9-5 (closed Mon)",threat:"medium"},
                 {l:"Groupon Presence",v:"Active deals (HydraFacial from $149)",you:"No Groupon",threat:"low"},
               ].map((x,i) => (
@@ -937,8 +937,8 @@ function App() {
             </div>
             <div style={{fontSize:11,fontWeight:700,color:C.t,marginBottom:6,textTransform:"uppercase",letterSpacing:0.6}}>Key competitive intel</div>
             {[
-              {t:"In your zip code (33155) on Main corridor",d:"Their Main corridor location is less than 2 miles from you. They're literally competing for the same patients driving the same roads. Any patient who searches \"medspa near Main corridor\" or \"medspa 33155\" will see both of you."},
-              {t:"Dermatology + aesthetics hybrid model",d:"Board-certified dermatologist (Dr. Smith, Brown MD) adds medical credibility that pure medspas lack. They can treat medical skin conditions AND do cosmetics, which creates a pipeline of dermatology patients who cross-sell into aesthetics."},
+              {t:"In your zip code (10004) on Bird Road",d:"Their Bird Rd location is less than 2 miles from you. They're literally competing for the same patients driving the same roads. Any patient who searches \"medspa near Bird Road\" or \"medspa 10004\" will see both of you."},
+              {t:"Dermatology + aesthetics hybrid model",d:"Board-certified dermatologist (Dr. Chacon, Brown MD) adds medical credibility that pure medspas lack. They can treat medical skin conditions AND do cosmetics, which creates a pipeline of dermatology patients who cross-sell into aesthetics."},
               {t:"Strong retail product strategy",d:"They actively sell SkinCeuticals, SkinBetter, and ZO Skin Health — three of the top medical-grade lines. These are featured on their homepage and site. At 40-60% margins, this is a revenue stream you're barely tapping."},
               {t:"Groupon presence captures price-sensitive patients",d:"Active Groupon deals on HydraFacials. While this can dilute brand, it drives massive first-visit volume. Their 117 Yelp reviews are partly a function of Groupon customers leaving reviews. This builds local SEO authority."},
             ].map((x,i) => (
@@ -1086,10 +1086,10 @@ function App() {
         <div style={{marginTop:18,padding:"14px 18px",borderRadius:11,background:"linear-gradient(135deg,rgba(52,211,153,0.06),rgba(56,189,248,0.06))",border:"1px solid rgba(52,211,153,0.12)"}}>
           <div style={{fontSize:12,fontWeight:700,color:C.gb,marginBottom:6}}>Zip Code Overlap Intelligence</div>
           <div style={{fontSize:11,color:C.ts,lineHeight:1.7}}>
-            <div style={{marginBottom:10}}><strong style={{color:C.t}}>33186 (Three Lakes)</strong> is the #1 zip for both Competitor A (13.5%) and Competitor D (16.9%) — this is ground zero for competitor poaching. You currently draw only 3.5% from 33186, meaning <strong style={{color:C.gb}}>massive untapped volume</strong> in a zip where competitors prove demand exists.</div>
-            <div style={{marginBottom:10}}><strong style={{color:C.t}}>33175 (Tamiami)</strong> sends 14.3% of Competitor D's traffic but doesn't appear in your top 10 at all — this is a <strong style={{color:C.rob}}>blind spot</strong> worth testing with targeted ads.</div>
-            <div style={{marginBottom:10}}><strong style={{color:C.t}}>33193 (Kendall West)</strong> is top-5 for both competitors (10.2% ME, 6.5% FM) and also absent from your trade area — another high-priority acquisition target.</div>
-            <div><strong style={{color:C.gb}}>Recommended Action:</strong> Deploy $1,500/mo in Google Ads targeting 33186, 33175, and 33193 with bilingual creative. These three zips alone represent <strong style={{color:C.t}}>~40% of Competitor A's patients</strong> and <strong style={{color:C.t}}>~41% of Competitor D's nearby traffic</strong>.</div>
+            <div style={{marginBottom:10}}><strong style={{color:C.t}}>10001 (Local Area)</strong> is the #1 zip for both Competitor A (13.5%) and Competitor D (16.9%) — this is ground zero for competitor poaching. You currently draw only 3.5% from 10001, meaning <strong style={{color:C.gb}}>massive untapped volume</strong> in a zip where competitors prove demand exists.</div>
+            <div style={{marginBottom:10}}><strong style={{color:C.t}}>10002 (Adjacent Area)</strong> sends 14.3% of Competitor D's traffic but doesn't appear in your top 10 at all — this is a <strong style={{color:C.rob}}>blind spot</strong> worth testing with targeted ads.</div>
+            <div style={{marginBottom:10}}><strong style={{color:C.t}}>10003 (Nearby Area West)</strong> is top-5 for both competitors (10.2% ME, 6.5% FM) and also absent from your trade area — another high-priority acquisition target.</div>
+            <div><strong style={{color:C.gb}}>Recommended Action:</strong> Deploy $1,500/mo in Google Ads targeting 10001, 10002, and 10003 with bilingual creative. These three zips alone represent <strong style={{color:C.t}}>~40% of Competitor A's patients</strong> and <strong style={{color:C.t}}>~41% of Competitor D's nearby traffic</strong>.</div>
           </div>
         </div>
       </Sec>
@@ -1100,7 +1100,7 @@ function App() {
       <Sec title="Feature-by-Feature Comparison" sub="How you stack up on what patients actually compare">
         <div style={{display:"grid",gridTemplateColumns:"160px 1fr 1fr 1fr 1fr",gap:1,background:C.bd,borderRadius:11,overflow:"hidden"}}>
           {[
-            {f:"Feature",you:"Sample Medspa",c1:"Competitor A",c2:"Competitor B",c3:"Comp. C"},
+            {f:"Feature",you:"Sample Medspa",c1:"Competitor A",c2:"Competitor B",c3:"Competitor C"},
             {f:"Membership Program",you:"❌ None",c1:"✅ From $49.99/mo",c2:"✅ $149/mo unlimited",c3:"❌ None"},
             {f:"Transparent Pricing",you:"⚠️ Wellness only",c1:"✅ Botox from $9.99",c2:"✅ Full pricing page",c3:"✅ Promos listed"},
             {f:"Spanish Content",you:"❌ English only",c1:"⚠️ Some Spanish reviews",c2:"✅ Full bilingual site",c3:"❌ English only"},
@@ -1233,8 +1233,8 @@ function App() {
 {/* ===== SEO COMPETITIVE ===== */}
 {tab === "seo" && (() => {
   const SEO = {
-    you: {domain:"samplemedspa.com", da:18, organicKw:42, organicTraffic:380, topKw:[
-      {kw:"sample medspa",pos:1,vol:110,trend:"stable"},
+    you: {domain:"rejuvalinemedspa.com", da:18, organicKw:42, organicTraffic:380, topKw:[
+      {kw:"rejuvaline medspa",pos:1,vol:110,trend:"stable"},
       {kw:"mobile medspa miami",pos:4,vol:320,trend:"up"},
       {kw:"iv therapy miami",pos:28,vol:1900,trend:"down"},
       {kw:"hormone therapy miami",pos:34,vol:880,trend:"stable"},
@@ -1245,7 +1245,7 @@ function App() {
       {kw:"morpheus8 miami",pos:null,vol:1100,trend:null},
       {kw:"weight loss clinic miami",pos:null,vol:1800,trend:null},
     ], pages:6, blog:0, speed:62},
-    c1: {domain:"competitorb.com", da:31, organicKw:287, organicTraffic:4200, topKw:[
+    c1: {domain:"beyondhealthmedspa.com", da:31, organicKw:287, organicTraffic:4200, topKw:[
       {kw:"botox miami",pos:12,vol:6600},
       {kw:"semaglutide miami",pos:8,vol:2400},
       {kw:"medspa miami",pos:18,vol:3600},
@@ -1257,7 +1257,7 @@ function App() {
       {kw:"pdo threads miami",pos:7,vol:660},
       {kw:"weight loss clinic miami",pos:11,vol:1800},
     ], pages:24, blog:8, speed:74},
-    c2: {domain:"competitora.com", da:38, organicKw:510, organicTraffic:7800, topKw:[
+    c2: {domain:"facialmaniamedspa.com", da:38, organicKw:510, organicTraffic:7800, topKw:[
       {kw:"botox miami",pos:8,vol:6600},
       {kw:"medspa miami",pos:6,vol:3600},
       {kw:"facial miami",pos:3,vol:1400},
@@ -1269,7 +1269,7 @@ function App() {
       {kw:"medspa coral gables",pos:2,vol:480},
       {kw:"medspa kendall",pos:4,vol:390},
     ], pages:42, blog:3, speed:58},
-    c3: {domain:"competitorc.com", da:34, organicKw:340, organicTraffic:5100, topKw:[
+    c3: {domain:"brickellcosmetic.com", da:34, organicKw:340, organicTraffic:5100, topKw:[
       {kw:"dermatologist miami",pos:14,vol:4400},
       {kw:"morpheus8 miami",pos:6,vol:1100},
       {kw:"botox miami",pos:19,vol:6600},
@@ -1300,7 +1300,7 @@ function App() {
       why:"Growing fast with GLP-1 demand. You already offer Semaglutide, Tirzepatide, and Phentermine — you just need content that tells Google about it. Competitor B is the only competitor ranking here.",
       content:"Create a weight loss program hub page linking to individual treatment pages (Semaglutide, Tirzepatide, Phentermine). Include BMI calculator widget, program pricing, success stories, and insurance/financing info."},
     {kw:"morpheus8 miami",vol:1100,cpc:"$16.30",c1:null,c2:null,c3:6,you:null,difficulty:"Medium",opp:"⚡ Medium",
-      why:"High-ticket procedure ($1,500-3,000/session). Only Comp. C ranks for this, and they're in your zip code. If you offer Morpheus8 or similar RF microneedling, this is low-hanging fruit.",
+      why:"High-ticket procedure ($1,500-3,000/session). Only Brickell ranks for this, and they're in your zip code. If you offer Morpheus8 or similar RF microneedling, this is low-hanging fruit.",
       content:"If you offer Morpheus8: dedicated page with pricing, session details, before/afters, downtime info. If not: create content for your RF microneedling alternative and capture patients searching for Morpheus8 alternatives."},
     {kw:"botox en miami",vol:480,cpc:"$14.20",c1:null,c2:null,c3:null,you:null,difficulty:"Low",opp:"⚡ Medium",
       why:"Spanish-language search volume is underserved — none of your competitors rank for Spanish keywords except Competitor B (which has bilingual content). With 70% Hispanic trade area, this is wide open.",
@@ -1401,7 +1401,7 @@ function App() {
             <div style={{padding:"8px 6px",fontSize:10,fontWeight:700,color:C.td,textTransform:"uppercase",borderBottom:`1px solid ${C.bd}`,textAlign:"center"}}>CPC</div>
             <div style={{padding:"8px 6px",fontSize:10,fontWeight:700,color:C.a,borderBottom:`1px solid ${C.bd}`,textAlign:"center"}}>You</div>
             <div style={{padding:"8px 6px",fontSize:10,fontWeight:700,color:"#FB7185",borderBottom:`1px solid ${C.bd}`,textAlign:"center"}}>BH</div>
-            <div style={{padding:"8px 6px",fontSize:10,fontWeight:700,color:"#FBBF24",borderBottom:`1px solid ${C.bd}`,textAlign:"center"}}>FM</div>
+            <div style={{padding:"8px 6px",fontSize:10,fontWeight:700,color:"#FBBF24",borderBottom:`1px solid ${C.bd}`,textAlign:"center"}}>CA</div>
             <div style={{padding:"8px 6px",fontSize:10,fontWeight:700,color:"#A78BFA",borderBottom:`1px solid ${C.bd}`,textAlign:"center"}}>BC</div>
             {[
               {kw:"botox miami",vol:"6.6K",cpc:"$22.50",you:null,c1:12,c2:8,c3:19},
@@ -1486,7 +1486,7 @@ function App() {
                   </div>
                   {g.c1 && <div style={{display:"inline-block",marginTop:8,marginRight:6,padding:"3px 8px",borderRadius:5,fontSize:10,background:"rgba(251,113,133,0.08)",color:"#FB7185",fontWeight:600}}>Competitor B: #{g.c1}</div>}
                   {g.c2 && <div style={{display:"inline-block",marginTop:8,marginRight:6,padding:"3px 8px",borderRadius:5,fontSize:10,background:"rgba(251,191,36,0.08)",color:"#FBBF24",fontWeight:600}}>Competitor A: #{g.c2}</div>}
-                  {g.c3 && <div style={{display:"inline-block",marginTop:8,padding:"3px 8px",borderRadius:5,fontSize:10,background:"rgba(167,139,250,0.08)",color:"#A78BFA",fontWeight:600}}>Comp. C: #{g.c3}</div>}
+                  {g.c3 && <div style={{display:"inline-block",marginTop:8,padding:"3px 8px",borderRadius:5,fontSize:10,background:"rgba(167,139,250,0.08)",color:"#A78BFA",fontWeight:600}}>Brickell: #{g.c3}</div>}
                 </div>
               </div>
             </div>
@@ -1532,12 +1532,12 @@ function App() {
               winning:["Individual pages per treatment (not grouped)","Comparison blog posts that rank for 'X vs Y' queries","Bilingual content capturing underserved Spanish search volume","Transparent pricing on every page (builds trust + captures 'cost' queries)","48K Instagram followers driving branded search volume"],
               steal:"Their strategy of dedicated pages per treatment is textbook SEO — and easy to replicate. Start with your 5 highest-revenue services, each getting its own 1,500+ word page with pricing, FAQs, and before/afters."},
             {name:"Competitor A",accent:"#FBBF24",bg:"rgba(251,191,36,0.06)",bc:"rgba(251,191,36,0.12)",
-              pages:42,blog:3,ig:"Strong",strategy:"Location-based SEO at scale. Instead of writing blog posts, they create unique service pages for every location × service combination ('Laser Hair Removal in Coral Gables–Miami', 'IV Therapy in Irving, TX'). This is a franchise SEO playbook — every new location multiplies their keyword coverage.",
+              pages:42,blog:3,ig:"Strong",strategy:"Location-based SEO at scale. Instead of writing blog posts, they create unique service pages for every location × service combination ('Laser Hair Removal in Downtown–Miami', 'IV Therapy in Irving, TX'). This is a franchise SEO playbook — every new location multiplies their keyword coverage.",
               winning:["Location + service landing pages (massive keyword coverage)","42 indexed pages vs your 6","Each location targets local neighborhood keywords","Membership pricing prominently featured (captures 'affordable' queries)","Service categories as navigation (clear site architecture for Google)"],
-              steal:"You have 3 locations. Creating location-specific service pages (e.g., 'Botox in Kendall', 'IV Therapy in Doral', 'Semaglutide near Westchester') would immediately 3x your keyword footprint."},
+              steal:"You have 3 locations. Creating location-specific service pages (e.g., 'Botox in Nearby Area', 'IV Therapy in Doral', 'Semaglutide near Westchester') would immediately 3x your keyword footprint."},
             {name:"Competitor C",accent:"#A78BFA",bg:"rgba(167,139,250,0.06)",bc:"rgba(167,139,250,0.12)",
-              pages:28,blog:5,ig:"Active",strategy:"Authority play built on medical credentials. Board-certified dermatologist (MD from Top university) gives them E-E-A-T advantage in Google's eyes. Content emphasizes clinical expertise, before/afters, and condition-based pages (acne, aging, skin cancer screening). Groupon presence drives volume queries.",
-              winning:["Board-certified MD credentials prominently displayed","Condition-based pages (not just treatment-based)","Strong retail product pages (SkinCeuticals, ZO Skin Health)","Active Groupon listings (capture deal-seeker traffic)","In your zip code (33155) — directly competing for local searches"],
+              pages:28,blog:5,ig:"Active",strategy:"Authority play built on medical credentials. Board-certified dermatologist (MD from Brown University) gives them E-E-A-T advantage in Google's eyes. Content emphasizes clinical expertise, before/afters, and condition-based pages (acne, aging, skin cancer screening). Groupon presence drives volume queries.",
+              winning:["Board-certified MD credentials prominently displayed","Condition-based pages (not just treatment-based)","Strong retail product pages (SkinCeuticals, ZO Skin Health)","Active Groupon listings (capture deal-seeker traffic)","In your zip code (10004) — directly competing for local searches"],
               steal:"Their condition-based approach is smart — a page about 'acne treatment' captures broader search intent than 'chemical peel'. Consider creating content that starts with the problem (e.g., 'How to lose weight in Miami') not just the treatment."},
           ].map((comp,i) => (
             <div key={i} style={{borderRadius:12,background:comp.bg,border:`1px solid ${comp.bc}`,padding:"16px 18px"}}>
@@ -1579,7 +1579,7 @@ function App() {
             {week:"Week 3-4",action:"Add Spanish-language pages for top 5 services",impact:"Near-zero competition for 'botox en miami' + similar",kw:"botox en miami (480), medspa en miami (320), etc.",effort:"Easy"},
             {week:"Week 4-6",action:"Publish 4 comparison/cost blog posts",impact:"Capture research-phase queries competitors own",kw:"'botox cost miami', 'botox vs dysport', 'semaglutide cost'",effort:"Medium"},
             {week:"Week 6-8",action:"Move before/after photos from IG to website gallery",impact:"Boost conversion rate 15-25% + image search traffic",kw:"before and after botox, lip filler results miami",effort:"Easy"},
-            {week:"Week 8-12",action:"Google Business Profile optimization + review campaign",impact:"Improve local pack rankings for 'medspa near me'",kw:"medspa near me, best medspa miami, medspa 33155",effort:"Easy"},
+            {week:"Week 8-12",action:"Google Business Profile optimization + review campaign",impact:"Improve local pack rankings for 'medspa near me'",kw:"medspa near me, best medspa miami, medspa 10004",effort:"Easy"},
             {week:"Week 5-8",action:"Build peptide therapy hub page + 3 supporting blog posts",impact:"Own the emerging peptide therapy keyword cluster",kw:"peptide therapy miami (1.8K), bpc-157 miami (720), peptides for anti-aging",effort:"Medium"},
           ].map((x,i) => (
             <div key={i} style={{display:"flex",alignItems:"center",gap:12,padding:"12px 16px",borderRadius:10,background:C.sf,border:`1px solid ${C.bd}`}}>
@@ -1839,7 +1839,7 @@ function App() {
             {metric:"Millennials 142 Index",bench:"Industry: 35-54 is primary demo",insight:"Millennials over-index by 42% vs national. This generation drives 40% of all medspa revenue nationally and is the most likely to research online before booking. They expect online booking, transparent pricing, and Instagram-worthy before/afters. Also the most membership-receptive cohort.",icon:"📱",c:C.ab,bg:C.ad},
             {metric:"46% BA+ Education",bench:"FM audience: 34% · ME: 35.3%",insight:"Research-driven buyers who Google before booking. Industry data shows 70% of medspa bookings are influenced by digital channels, and for BA+ audiences, that number is likely higher. Your SEO ROI will outperform social-only strategies — invest in Google Ads and content marketing first.",icon:"🎓",c:C.pb,bg:C.pd},
             {metric:"42.7% Employer-Insured",bench:"National avg: ~55%",insight:"Below average employer insurance, BUT those who have it often carry HSA/FSA benefits. The avg HSA holder has $3,900 in unused funds. Q4 \"Use It or Lose It\" campaigns targeting this segment could generate $8-15K/mo in Oct-Dec alone — that's $24-45K in one quarter from a single audience slice.",icon:"💳",c:C.gb,bg:C.gd},
-            {metric:"55.5% Renters, $442K Median Home",bench:"Miami avg rent: $2,100/mo",insight:"Renter-majority means high condo/apartment density — geo-targetable buildings. Luxury condo associations (Kendall, Pinecrest) are ideal for wellness program partnerships. Homeowners at $442K median are equity-rich, often with HELOCs that fund elective procedures.",icon:"🏢",c:C.ab,bg:C.ad},
+            {metric:"55.5% Renters, $442K Median Home",bench:"Miami avg rent: $2,100/mo",insight:"Renter-majority means high condo/apartment density — geo-targetable buildings. Luxury condo associations (Nearby Area, Pinecrest) are ideal for wellness program partnerships. Homeowners at $442K median are equity-rich, often with HELOCs that fund elective procedures.",icon:"🏢",c:C.ab,bg:C.ad},
           ].map((x,i) => (
             <div key={i} style={{padding:"14px 16px",borderRadius:12,background:C.sf,border:`1px solid ${C.bd}`}}>
               <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:8}}>
@@ -2017,8 +2017,8 @@ function App() {
     {/* Revenue Opportunities */}
     <Card>
       <Sec title="Revenue Opportunities" sub="At-a-glance">
-        <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:10}}>
-          {[{l:"Geo Ads",v:"+$28K/mo",s:"20 pts from top zips",c:C.ab,bg:C.ad},{l:"HSA/FSA",v:"+$8-15K/mo",s:"42.7% employer",c:C.gb,bg:C.gd},{l:"Financing",v:"+$4.2K/mo",s:"15.9% uninsured",c:C.amb,bg:C.amd},{l:"Cross-Mktg",v:"+$16-28K/mo",s:"Dadeland + partners",c:C.pb,bg:C.pd}].map((x, i) => (
+        <div style={{display:"grid",gridTemplateColumns:"repeat(5,1fr)",gap:10}}>
+          {[{l:"Geo Ads",v:"+$28K/mo",s:"20 pts from top zips",c:C.ab,bg:C.ad},{l:"HSA/FSA",v:"+$8-15K/mo",s:"42.7% employer",c:C.gb,bg:C.gd},{l:"Financing",v:"+$4.2K/mo",s:"15.9% uninsured",c:C.amb,bg:C.amd},{l:"Cross-Mktg",v:"+$16-28K/mo",s:"Dadeland + partners",c:C.pb,bg:C.pd},{l:"Peptides",v:"+$9-15K/mo",s:"$225/mo recurring",c:C.rob,bg:C.rod}].map((x, i) => (
             <div key={i} style={{padding:16,borderRadius:11,background:x.bg,textAlign:"center"}}>
               <div style={{fontSize:22,fontWeight:800,color:x.c,fontFamily:FONT}}>{x.v}</div>
               <div style={{fontSize:11,fontWeight:700,color:x.c,marginTop:4}}>{x.l}</div>
@@ -2057,6 +2057,9 @@ function App() {
             {type:"Membership Launch",roi:"10-15x LTV",c:C.gb,bg:C.gd,icon:"🔄",
               why:"85% of US medspas now offer memberships. Membership spend increased 38% YoY. Your 4.08x visit frequency means you have a built-in membership audience — patients already behaving like members without the recurring revenue commitment. Memberships generate 20-30% of revenue for top performers.",
               bench:"24% growth in medspa membership sales in 2024 (Zenoti)"},
+            {type:"Peptide Therapy Marketing",roi:"12-18x LTV",c:C.rob,bg:C.rod,icon:"🧬",
+              why:"The peptide therapeutics market ($40-53B) is growing at 5-9% CAGR. Google searches for 'peptide therapy' up 340% since 2023. You already offer peptides at $225/mo but have zero marketing for them. At $225/mo × 12 months = $2,700 LTV per patient — comparable to GLP-1 patients. Feb 2026: HHS announced ~14 banned peptides returning to legal compounding, removing the biggest adoption barrier. Zero Miami competitors have peptide content — first-mover advantage is yours.",
+              bench:"Peptide patient retention avg 8-14 months at $200-400/mo recurring"},
           ].map((x,i) => (
             <div key={i} style={{padding:"14px 16px",borderRadius:12,background:C.sf,border:`1px solid ${C.bd}`}}>
               <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:8}}>
@@ -2102,7 +2105,7 @@ function App() {
             </div>
             <div style={{fontSize:11,color:C.gb,fontWeight:700,marginBottom:10}}>CTA: "Book Before Dec 31 →"</div>
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:10}}>
-              {[{l:"Target Zips",v:"33155, 33137, 33165, 33156"},{l:"Audience",v:"Women 28-54, Employer-insured"},{l:"Budget",v:"$500/mo (Oct-Dec)"},{l:"Est. Result",v:"12-18 bookings/mo"}].map((x,i) => (
+              {[{l:"Target Zips",v:"10004, 33137, 33165, 33156"},{l:"Audience",v:"Women 28-54, Employer-insured"},{l:"Budget",v:"$500/mo (Oct-Dec)"},{l:"Est. Result",v:"12-18 bookings/mo"}].map((x,i) => (
                 <div key={i} style={{padding:"6px 10px",borderRadius:7,background:C.sf}}>
                   <div style={{fontSize:9,color:C.td,fontWeight:700,textTransform:"uppercase"}}>{x.l}</div>
                   <div style={{fontSize:11,color:C.t,fontWeight:600,marginTop:1}}>{x.v}</div>
@@ -2128,8 +2131,8 @@ function App() {
           </div>
           <div style={{padding:"16px 22px"}}>
             <div style={{fontSize:12,color:C.t,lineHeight:1.6,marginBottom:12}}>
-              <strong style={{color:C.pb}}>Ad Copy (ES):</strong> "Luce tu mejor version con Botox en Sample Medspa. Resultados naturales. Medicos certificados. Consulta gratis. Tu primera cita con 20% de descuento."
-              <br /><strong style={{color:C.pb}}>Ad Copy (EN):</strong> "Look your best with Botox at Sample Medspa. Natural results. Board-certified providers. Free consult. 20% off your first visit."
+              <strong style={{color:C.pb}}>Ad Copy (ES):</strong> "Luce tu mejor version con Botox en nuestra clinica. Resultados naturales. Medicos certificados. Consulta gratis. Tu primera cita con 20% de descuento."
+              <br /><strong style={{color:C.pb}}>Ad Copy (EN):</strong> "Look your best with Botox at our medspa. Natural results. Board-certified providers. Free consult. 20% off your first visit."
             </div>
             <div style={{fontSize:11,color:C.pb,fontWeight:700,marginBottom:10}}>CTA: "Agenda Tu Cita / Book Now →"</div>
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:10}}>
@@ -2189,7 +2192,7 @@ function App() {
           </div>
           <div style={{padding:"16px 22px"}}>
             <div style={{fontSize:12,color:C.t,lineHeight:1.6,marginBottom:12}}>
-              <strong style={{color:C.ab}}>Ad Copy:</strong> "Treat yourself after your shopping spree. Sample Medspa — 4.9 stars, 100+ reviews. Same-day Botox appointments available. New patients: free consultation + 15% off first treatment."
+              <strong style={{color:C.ab}}>Ad Copy:</strong> "Treat yourself after your shopping spree. Your Medspa — 4.9 stars, 100+ reviews. Same-day Botox appointments available. New patients: free consultation + 15% off first treatment."
             </div>
             <div style={{fontSize:11,color:C.ab,fontWeight:700,marginBottom:10}}>CTA: "Book Same-Day Appointment →"</div>
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:10}}>
@@ -2250,7 +2253,7 @@ function App() {
             <div style={{marginBottom:12}}>
               {[
                 {kw:"botox near me miami",h:"Botox Miami — $10/Unit | Top-Rated Medspa",d:"4.9 Stars, 100+ Reviews. Board-Certified. Free Consult. Book Same-Day."},
-                {kw:"best medspa coral gables",h:"#1 Medspa Near Coral Gables | Sample Medspa",d:"Fillers, Botox, Laser. Bilingual Staff. HSA/FSA Accepted. 0% Financing."},
+                {kw:"best medspa coral gables",h:"#1 Medspa Near Downtown | Sample Medspa",d:"Fillers, Botox, Laser. Bilingual Staff. HSA/FSA Accepted. 0% Financing."},
                 {kw:"lip fillers miami cost",h:"Lip Fillers from $89/mo | 0% Financing",d:"Natural Results. Before/After Gallery. Free Consultation. Book Today."}
               ].map((x, i) => (
                 <div key={i} style={{padding:"10px 14px",borderRadius:8,background:C.sf,marginBottom:6}}>
@@ -2261,7 +2264,7 @@ function App() {
               ))}
             </div>
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:10}}>
-              {[{l:"Target Radius",v:"7mi from 1234 Main St"},{l:"Language",v:"English + Spanish campaigns"},{l:"Budget",v:"$800-1,200/mo"},{l:"Est. Result",v:"20-30 clicks/day, 8-12 bookings/mo"}].map((x,i) => (
+              {[{l:"Target Radius",v:"7mi from 6700 Main St"},{l:"Language",v:"English + Spanish campaigns"},{l:"Budget",v:"$800-1,200/mo"},{l:"Est. Result",v:"20-30 clicks/day, 8-12 bookings/mo"}].map((x,i) => (
                 <div key={i} style={{padding:"6px 10px",borderRadius:7,background:C.sf}}>
                   <div style={{fontSize:9,color:C.td,fontWeight:700,textTransform:"uppercase"}}>{x.l}</div>
                   <div style={{fontSize:11,color:C.t,fontWeight:600,marginTop:1}}>{x.v}</div>
@@ -2273,15 +2276,45 @@ function App() {
             </div>
           </div>
         </div>
+        {/* Ad 7: Peptide Therapy */}
+        <div style={{borderRadius:16,overflow:"hidden",border:`1px solid ${C.ba}`,background:C.cd}}>
+          <div style={{background:"linear-gradient(135deg,#134E4A,#0D9488)",padding:"20px 22px",position:"relative"}}>
+            <div style={{position:"absolute",top:12,right:14,display:"flex",gap:4}}>
+              <span style={{padding:"3px 8px",borderRadius:6,background:"rgba(255,255,255,0.2)",fontSize:9,fontWeight:700,color:"#fff"}}>GOOGLE</span>
+              <span style={{padding:"3px 8px",borderRadius:6,background:"rgba(255,255,255,0.2)",fontSize:9,fontWeight:700,color:"#fff"}}>META</span>
+              <span style={{padding:"3px 8px",borderRadius:6,background:"rgba(255,255,255,0.2)",fontSize:9,fontWeight:700,color:"#fff"}}>SEO</span>
+            </div>
+            <div style={{fontSize:9,fontWeight:700,color:"rgba(255,255,255,0.7)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:8}}>Campaign 7 · Peptide Therapy</div>
+            <div style={{fontSize:18,fontWeight:800,color:"#fff",lineHeight:1.3,marginBottom:4}}>Heal Faster. Age Slower. Feel Better.</div>
+            <div style={{fontSize:14,color:"#CCFBF1",lineHeight:1.3}}>Peptide therapy from $225/mo — the future of wellness.</div>
+          </div>
+          <div style={{padding:"16px 22px"}}>
+            <div style={{fontSize:12,color:C.t,lineHeight:1.6,marginBottom:12}}>
+              <strong style={{color:"#0D9488"}}>Ad Copy:</strong> "Your body already makes peptides — we just give it the ones it needs. BPC-157 for recovery. GHK-Cu for skin rejuvenation. CJC-1295 for anti-aging. PT-141 for wellness. Physician-supervised peptide therapy starting at $225/mo. FDA-compliant sourcing. Free consultation."
+            </div>
+            <div style={{fontSize:11,color:"#0D9488",fontWeight:700,marginBottom:10}}>CTA: "Learn About Peptide Therapy →"</div>
+            <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:10}}>
+              {[{l:"Target",v:"Adults 30-55, health/wellness interest"},{l:"Keywords",v:"peptide therapy miami, BPC-157, anti-aging peptides"},{l:"Budget",v:"$600/mo (Google $400 + Meta $200)"},{l:"Est. Result",v:"8-15 consultations/mo"}].map((x,i) => (
+                <div key={i} style={{padding:"6px 10px",borderRadius:7,background:C.sf}}>
+                  <div style={{fontSize:9,color:C.td,fontWeight:700,textTransform:"uppercase"}}>{x.l}</div>
+                  <div style={{fontSize:11,color:C.t,fontWeight:600,marginTop:1}}>{x.v}</div>
+                </div>
+              ))}
+            </div>
+            <div style={{padding:"8px 12px",borderRadius:8,background:"rgba(13,148,136,0.08)",fontSize:11,color:"#0D9488",fontWeight:600,textAlign:"center"}}>
+              Zero competitors rank for peptide keywords in Miami — first-mover captures 100% of organic traffic
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Total Ad Budget Summary */}
       <div style={{marginTop:16,padding:"18px 24px",borderRadius:14,background:"linear-gradient(135deg,rgba(56,189,248,0.06),rgba(167,139,250,0.04),rgba(52,211,153,0.04))",border:`1px solid ${C.ba}`}}>
         <div style={{fontSize:13,fontWeight:800,color:C.t,marginBottom:12,fontFamily:FONT}}>90-Day Campaign Budget Summary</div>
-        <div style={{display:"grid",gridTemplateColumns:"repeat(6,1fr)",gap:8,marginBottom:14}}>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(7,1fr)",gap:8,marginBottom:14}}>
           {[
             {l:"HSA/FSA Q4",v:"$500",c:C.gb},{l:"Bilingual",v:"$400",c:C.pb},{l:"Financing",v:"$300",c:C.rb},
-            {l:"Geo-Fence",v:"$750",c:C.ab},{l:"Couples",v:"$300",c:C.rob},{l:"Google",v:"$1,000",c:C.amb}
+            {l:"Geo-Fence",v:"$750",c:C.ab},{l:"Couples",v:"$300",c:C.rob},{l:"Google",v:"$1,000",c:C.amb},{l:"Peptides",v:"$600",c:"#0D9488"}
           ].map((x,i) => (
             <div key={i} style={{textAlign:"center",padding:"8px 6px",borderRadius:8,background:C.sf}}>
               <div style={{fontSize:14,fontWeight:800,color:x.c,fontFamily:FONT}}>{x.v}</div>
@@ -2292,19 +2325,19 @@ function App() {
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:14}}>
           <div style={{textAlign:"center",padding:14,borderRadius:10,background:"rgba(15,23,42,0.04)"}}>
             <div style={{fontSize:10,color:C.td,textTransform:"uppercase",letterSpacing:1,marginBottom:4}}>Total Monthly Ad Spend</div>
-            <div style={{fontSize:26,fontWeight:800,color:C.amb,fontFamily:FONT}}>$3,250</div>
+            <div style={{fontSize:26,fontWeight:800,color:C.amb,fontFamily:FONT}}>$3,850</div>
           </div>
           <div style={{textAlign:"center",padding:14,borderRadius:10,background:"rgba(15,23,42,0.04)"}}>
             <div style={{fontSize:10,color:C.td,textTransform:"uppercase",letterSpacing:1,marginBottom:4}}>Est. New Patients/Mo</div>
-            <div style={{fontSize:26,fontWeight:800,color:C.ab,fontFamily:FONT}}>58-103</div>
+            <div style={{fontSize:26,fontWeight:800,color:C.ab,fontFamily:FONT}}>66-118</div>
           </div>
           <div style={{textAlign:"center",padding:14,borderRadius:10,background:"rgba(15,23,42,0.04)"}}>
             <div style={{fontSize:10,color:C.td,textTransform:"uppercase",letterSpacing:1,marginBottom:4}}>Est. Monthly Revenue</div>
-            <div style={{fontSize:26,fontWeight:800,color:C.gb,fontFamily:FONT}}>$20-36K</div>
+            <div style={{fontSize:26,fontWeight:800,color:C.gb,fontFamily:FONT}}>$29-51K</div>
           </div>
         </div>
         <div style={{marginTop:12,textAlign:"center",fontSize:12,color:C.gb,fontWeight:700}}>
-          Projected ROAS: 6-11x return on ad spend
+          Projected ROAS: 7-13x return on ad spend
         </div>
       </div>
     </div>
@@ -2341,7 +2374,7 @@ function App() {
 
     {/* SITE AUDIT: What We Found */}
     <Card glow style={{background:"linear-gradient(135deg,rgba(3,105,161,0.04),rgba(109,40,217,0.03))"}}>
-      <Sec title="Site Intelligence Audit" sub="What we found on samplemedspa.com — compared to industry best practices">
+      <Sec title="Site Intelligence Audit" sub="What we found on rejuvalinemedspa.com — compared to industry best practices">
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:10}}>
           {[
             {item:"3 Locations",status:"strength",bench:"Avg medspa: 1.2 locations",insight:"Multi-location is a significant competitive advantage — only ~15% of medspas operate 2+ locations. This gives you geographic coverage across West Gables and Miami Beach, capturing different demographics. Cross-location marketing (\"Visit any location\") increases booking convenience and reduces no-shows.",icon:"📍",c:C.gb,bg:C.gd},
@@ -2351,7 +2384,7 @@ function App() {
             {item:"No Transparent Pricing (Most Services)",status:"gap",bench:"62% of patients research price before booking",insight:"Only your Wellness menu shows prices (IV $150-275, Sema $105/wk, HRT $250/mo). Injectables, facials, laser, and body sculpting have no visible pricing. Industry data shows 62% of medspa patients research pricing online before booking. Your competitors who list prices (even ranges) capture these comparison shoppers. \"Starting at\" pricing reduces phone inquiry friction.",icon:"💲",c:C.amb,bg:C.amd},
             {item:"Cherry Financing Active",status:"strength",bench:"40-60% conversion on price-hesitant patients",insight:"You have Cherry financing integrated, which is excellent — but it's only visible on the homepage as a banner. Top-performing practices display financing on every service page with monthly payment examples (\"Botox from $45/mo\"). With 15.9% of your trade area uninsured, promoting this more prominently could convert significantly more walk-ins.",icon:"💳",c:C.gb,bg:C.gd},
             {item:"No Before/After Gallery on Website",status:"gap",bench:"Top medspas: dedicated gallery with 50+ photos on site",insight:"You have before/after content on Instagram, but it's not on your website. Before/after galleries are the #1 conversion tool for medspas — 78% of patients cite them as \"very important\" in their booking decision. Google can't index your Instagram photos. A dedicated gallery page on your site with results by treatment type (Botox, fillers, facials) would boost SEO and increase consultation bookings from organic traffic.",icon:"📸",c:C.rb,bg:C.rd},
-            {item:"No Blog or Content Marketing",status:"gap",bench:"Medspas with blogs get 55% more website traffic",insight:"Zero blog content means you're invisible for long-tail SEO queries like \"how much does Botox cost in Miami\" or \"best hydrafacial near Coral Gables.\" Your 46% BA+ audience researches extensively before booking. Even 2 posts/month targeting high-volume keywords could add 500-1,000 organic visitors/month within 6 months.",icon:"📝",c:C.amb,bg:C.amd},
+            {item:"No Blog or Content Marketing",status:"gap",bench:"Medspas with blogs get 55% more website traffic",insight:"Zero blog content means you're invisible for long-tail SEO queries like \"how much does Botox cost in Miami\" or \"best hydrafacial near Downtown.\" Your 46% BA+ audience researches extensively before booking. Even 2 posts/month targeting high-volume keywords could add 500-1,000 organic visitors/month within 6 months.",icon:"📝",c:C.amb,bg:C.amd},
             {item:"Broken Instagram Feed on Homepage",status:"gap",bench:"Instagram drives 30% of medspa discovery",insight:"Your homepage displays an Instagram error: \"There has been a problem with your Instagram Feed.\" Since Instagram is the #1 social discovery channel for medspas (especially for your Millennial-heavy audience at 142 index), a broken feed signals neglect to potential patients. This is a quick fix that should be immediate priority.",icon:"📱",c:C.rb,bg:C.rd},
             {item:"No HSA/FSA Mention Anywhere",status:"gap",bench:"42.7% of your audience is employer-insured",insight:"Your site doesn't mention HSA/FSA acceptance anywhere — not on the payment plans page, not on service pages, nowhere. The average HSA holder has $3,900 in unused funds. A simple \"We Accept HSA/FSA\" badge on every page plus a Q4 campaign could drive $8-15K in seasonal revenue. This is found money from existing patients who don't know they can use these funds.",icon:"🏥",c:C.rb,bg:C.rd},
             {item:"3.75% Credit Card Surcharge",status:"risk",bench:"Most medspas absorb CC fees or use flat pricing",insight:"Your menu states \"3.75% noncash adjustment\" for credit card purchases. While legal in Florida, this creates friction for patients spending $500+ on treatments. Industry best practice is to build card processing into pricing. At $84.5K avg HHI, your patients expect seamless payment. Consider absorbing the fee and adjusting base prices up 2-3% instead.",icon:"💲",c:C.amb,bg:C.amd},
@@ -2394,7 +2427,7 @@ function App() {
 
     {/* ACTUAL PRICING VS BENCHMARKS */}
     <Card>
-      <Sec title="Your Pricing vs Miami Market" sub="Observable prices from samplemedspa.com compared to market rates">
+      <Sec title="Your Pricing vs Miami Market" sub="Observable prices from rejuvalinemedspa.com compared to market rates">
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:10}}>
           {[
             {svc:"Semaglutide",yours:"$105/wk ($420/mo)",market:"$300-600/mo (Miami avg)",verdict:"Competitive",c:C.gb,bg:C.gd,
@@ -2551,7 +2584,7 @@ function App() {
         <div style={{display:"flex",flexDirection:"column",gap:8}}>
           {[
             {rank:1,lever:"Launch Membership Program",ease:"Medium",impact:"$12-20K/mo",timeline:"60-90 days",c:C.ab,bg:C.ad,bc:"rgba(3,105,161,0.12)",
-              detail:"You don't have one — 85% of competitors do. Your patients visit 4.08x/year (top 5% nationally), proving loyalty. A $129/mo \"Sample Medspa VIP\" program with injectable credits + 15% off services + priority booking could convert 100 of your repeat patients in 90 days = $12,900/mo recurring."},
+              detail:"You don't have one — 85% of competitors do. Your patients visit 4.08x/year (top 5% nationally), proving loyalty. A $129/mo \"Premium VIP\" program with injectable credits + 15% off services + priority booking could convert 100 of your repeat patients in 90 days = $12,900/mo recurring."},
             {rank:2,lever:"GPO Membership",ease:"Easy",impact:`$${gpoYr.toLocaleString()}/yr`,timeline:"Immediate",c:C.gb,bg:C.gd,bc:"rgba(52,211,153,0.12)",
               detail:`Join MedResults Network at $99/mo. Save 15-22% on Allergan, Galderma, Merz, and neurotoxin purchases across all 3 locations. With 3 locations, your combined product spend is likely $50-80K/mo — GPO savings of $9-17K/mo. Net ROI: ${Math.round(gpoMo/99)}x at current estimate.`},
             {rank:3,lever:"Add Bilingual Website + Marketing",ease:"Medium",impact:"$6-10K/mo",timeline:"30-60 days",c:C.pb,bg:C.pd,bc:"rgba(109,40,217,0.12)",

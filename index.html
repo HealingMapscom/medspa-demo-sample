@@ -2017,8 +2017,8 @@ function App() {
     {/* Revenue Opportunities */}
     <Card>
       <Sec title="Revenue Opportunities" sub="At-a-glance">
-        <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:10}}>
-          {[{l:"Geo Ads",v:"+$28K/mo",s:"20 pts from top zips",c:C.ab,bg:C.ad},{l:"HSA/FSA",v:"+$8-15K/mo",s:"42.7% employer",c:C.gb,bg:C.gd},{l:"Financing",v:"+$4.2K/mo",s:"15.9% uninsured",c:C.amb,bg:C.amd},{l:"Cross-Mktg",v:"+$16-28K/mo",s:"Dadeland + partners",c:C.pb,bg:C.pd}].map((x, i) => (
+        <div style={{display:"grid",gridTemplateColumns:"repeat(5,1fr)",gap:10}}>
+          {[{l:"Geo Ads",v:"+$28K/mo",s:"20 pts from top zips",c:C.ab,bg:C.ad},{l:"HSA/FSA",v:"+$8-15K/mo",s:"42.7% employer",c:C.gb,bg:C.gd},{l:"Financing",v:"+$4.2K/mo",s:"15.9% uninsured",c:C.amb,bg:C.amd},{l:"Cross-Mktg",v:"+$16-28K/mo",s:"Dadeland + partners",c:C.pb,bg:C.pd},{l:"Peptides",v:"+$9-15K/mo",s:"$225/mo recurring",c:C.rob,bg:C.rod}].map((x, i) => (
             <div key={i} style={{padding:16,borderRadius:11,background:x.bg,textAlign:"center"}}>
               <div style={{fontSize:22,fontWeight:800,color:x.c,fontFamily:FONT}}>{x.v}</div>
               <div style={{fontSize:11,fontWeight:700,color:x.c,marginTop:4}}>{x.l}</div>
@@ -2057,6 +2057,9 @@ function App() {
             {type:"Membership Launch",roi:"10-15x LTV",c:C.gb,bg:C.gd,icon:"🔄",
               why:"85% of US medspas now offer memberships. Membership spend increased 38% YoY. Your 4.08x visit frequency means you have a built-in membership audience — patients already behaving like members without the recurring revenue commitment. Memberships generate 20-30% of revenue for top performers.",
               bench:"24% growth in medspa membership sales in 2024 (Zenoti)"},
+            {type:"Peptide Therapy Marketing",roi:"12-18x LTV",c:C.rob,bg:C.rod,icon:"🧬",
+              why:"The peptide therapeutics market ($40-53B) is growing at 5-9% CAGR. Google searches for 'peptide therapy' up 340% since 2023. You already offer peptides at $225/mo but have zero marketing for them. At $225/mo × 12 months = $2,700 LTV per patient — comparable to GLP-1 patients. Feb 2026: HHS announced ~14 banned peptides returning to legal compounding, removing the biggest adoption barrier. Zero Miami competitors have peptide content — first-mover advantage is yours.",
+              bench:"Peptide patient retention avg 8-14 months at $200-400/mo recurring"},
           ].map((x,i) => (
             <div key={i} style={{padding:"14px 16px",borderRadius:12,background:C.sf,border:`1px solid ${C.bd}`}}>
               <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:8}}>
@@ -2273,15 +2276,45 @@ function App() {
             </div>
           </div>
         </div>
+        {/* Ad 7: Peptide Therapy */}
+        <div style={{borderRadius:16,overflow:"hidden",border:`1px solid ${C.ba}`,background:C.cd}}>
+          <div style={{background:"linear-gradient(135deg,#134E4A,#0D9488)",padding:"20px 22px",position:"relative"}}>
+            <div style={{position:"absolute",top:12,right:14,display:"flex",gap:4}}>
+              <span style={{padding:"3px 8px",borderRadius:6,background:"rgba(255,255,255,0.2)",fontSize:9,fontWeight:700,color:"#fff"}}>GOOGLE</span>
+              <span style={{padding:"3px 8px",borderRadius:6,background:"rgba(255,255,255,0.2)",fontSize:9,fontWeight:700,color:"#fff"}}>META</span>
+              <span style={{padding:"3px 8px",borderRadius:6,background:"rgba(255,255,255,0.2)",fontSize:9,fontWeight:700,color:"#fff"}}>SEO</span>
+            </div>
+            <div style={{fontSize:9,fontWeight:700,color:"rgba(255,255,255,0.7)",textTransform:"uppercase",letterSpacing:1.5,marginBottom:8}}>Campaign 7 · Peptide Therapy</div>
+            <div style={{fontSize:18,fontWeight:800,color:"#fff",lineHeight:1.3,marginBottom:4}}>Heal Faster. Age Slower. Feel Better.</div>
+            <div style={{fontSize:14,color:"#CCFBF1",lineHeight:1.3}}>Peptide therapy from $225/mo — the future of wellness.</div>
+          </div>
+          <div style={{padding:"16px 22px"}}>
+            <div style={{fontSize:12,color:C.t,lineHeight:1.6,marginBottom:12}}>
+              <strong style={{color:"#0D9488"}}>Ad Copy:</strong> "Your body already makes peptides — we just give it the ones it needs. BPC-157 for recovery. GHK-Cu for skin rejuvenation. CJC-1295 for anti-aging. PT-141 for wellness. Physician-supervised peptide therapy starting at $225/mo. FDA-compliant sourcing. Free consultation."
+            </div>
+            <div style={{fontSize:11,color:"#0D9488",fontWeight:700,marginBottom:10}}>CTA: "Learn About Peptide Therapy →"</div>
+            <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:10}}>
+              {[{l:"Target",v:"Adults 30-55, health/wellness interest"},{l:"Keywords",v:"peptide therapy miami, BPC-157, anti-aging peptides"},{l:"Budget",v:"$600/mo (Google $400 + Meta $200)"},{l:"Est. Result",v:"8-15 consultations/mo"}].map((x,i) => (
+                <div key={i} style={{padding:"6px 10px",borderRadius:7,background:C.sf}}>
+                  <div style={{fontSize:9,color:C.td,fontWeight:700,textTransform:"uppercase"}}>{x.l}</div>
+                  <div style={{fontSize:11,color:C.t,fontWeight:600,marginTop:1}}>{x.v}</div>
+                </div>
+              ))}
+            </div>
+            <div style={{padding:"8px 12px",borderRadius:8,background:"rgba(13,148,136,0.08)",fontSize:11,color:"#0D9488",fontWeight:600,textAlign:"center"}}>
+              Zero competitors rank for peptide keywords in Miami — first-mover captures 100% of organic traffic
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Total Ad Budget Summary */}
       <div style={{marginTop:16,padding:"18px 24px",borderRadius:14,background:"linear-gradient(135deg,rgba(56,189,248,0.06),rgba(167,139,250,0.04),rgba(52,211,153,0.04))",border:`1px solid ${C.ba}`}}>
         <div style={{fontSize:13,fontWeight:800,color:C.t,marginBottom:12,fontFamily:FONT}}>90-Day Campaign Budget Summary</div>
-        <div style={{display:"grid",gridTemplateColumns:"repeat(6,1fr)",gap:8,marginBottom:14}}>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(7,1fr)",gap:8,marginBottom:14}}>
           {[
             {l:"HSA/FSA Q4",v:"$500",c:C.gb},{l:"Bilingual",v:"$400",c:C.pb},{l:"Financing",v:"$300",c:C.rb},
-            {l:"Geo-Fence",v:"$750",c:C.ab},{l:"Couples",v:"$300",c:C.rob},{l:"Google",v:"$1,000",c:C.amb}
+            {l:"Geo-Fence",v:"$750",c:C.ab},{l:"Couples",v:"$300",c:C.rob},{l:"Google",v:"$1,000",c:C.amb},{l:"Peptides",v:"$600",c:"#0D9488"}
           ].map((x,i) => (
             <div key={i} style={{textAlign:"center",padding:"8px 6px",borderRadius:8,background:C.sf}}>
               <div style={{fontSize:14,fontWeight:800,color:x.c,fontFamily:FONT}}>{x.v}</div>
@@ -2292,19 +2325,19 @@ function App() {
         <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:14}}>
           <div style={{textAlign:"center",padding:14,borderRadius:10,background:"rgba(15,23,42,0.04)"}}>
             <div style={{fontSize:10,color:C.td,textTransform:"uppercase",letterSpacing:1,marginBottom:4}}>Total Monthly Ad Spend</div>
-            <div style={{fontSize:26,fontWeight:800,color:C.amb,fontFamily:FONT}}>$3,250</div>
+            <div style={{fontSize:26,fontWeight:800,color:C.amb,fontFamily:FONT}}>$3,850</div>
           </div>
           <div style={{textAlign:"center",padding:14,borderRadius:10,background:"rgba(15,23,42,0.04)"}}>
             <div style={{fontSize:10,color:C.td,textTransform:"uppercase",letterSpacing:1,marginBottom:4}}>Est. New Patients/Mo</div>
-            <div style={{fontSize:26,fontWeight:800,color:C.ab,fontFamily:FONT}}>58-103</div>
+            <div style={{fontSize:26,fontWeight:800,color:C.ab,fontFamily:FONT}}>66-118</div>
           </div>
           <div style={{textAlign:"center",padding:14,borderRadius:10,background:"rgba(15,23,42,0.04)"}}>
             <div style={{fontSize:10,color:C.td,textTransform:"uppercase",letterSpacing:1,marginBottom:4}}>Est. Monthly Revenue</div>
-            <div style={{fontSize:26,fontWeight:800,color:C.gb,fontFamily:FONT}}>$20-36K</div>
+            <div style={{fontSize:26,fontWeight:800,color:C.gb,fontFamily:FONT}}>$29-51K</div>
           </div>
         </div>
         <div style={{marginTop:12,textAlign:"center",fontSize:12,color:C.gb,fontWeight:700}}>
-          Projected ROAS: 6-11x return on ad spend
+          Projected ROAS: 7-13x return on ad spend
         </div>
       </div>
     </div>
